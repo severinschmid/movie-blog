@@ -8,7 +8,7 @@ const movies = [
   {
     name: "I am thinking of ending things",
     platform: "Netflix",
-    description: "A weird one which is kind of hard to recommend. But if you feel that you have seen everything, go see this. I think I have to see this more times to completely get it, or get it at all."
+    description: "A weird one which is kind of hard to recommend. But if you feel that you have seen everything, go see this. I think I have to see this more times to completely get it, or to get it at all."
   },
   {
     name: "Nightcrawler",
@@ -19,6 +19,11 @@ const movies = [
     name: "The forty-year-old version",
     platform: "Netflix",
     description: "Written and directed by Radha Blank, who also plays the main role, this is about a drama teacher who decides to become a rapper. It is funny and heartfelt and looks great."
+  },
+  {
+    name: "Incendies",
+    platform: "Mubi",
+    description: "The first major movie by Denis Villeneuve and the last one of him I have seen. It is mostly in french, and it is pretty grim. But it is exactly what you would expect from the director."
   },
   {
     name: "Knives Out",
@@ -39,6 +44,11 @@ const movies = [
     name: "It comes at night",
     platform: "Netflix",
     description: "I can´t keep saying that movies are thrilling. I love A24, and the majority of movies they put out, this one included. The atmosphere is this is extremely well done, and the posters were amazing, too. The trailer makes it seem more like a horror movie than it acutally is, so give it chance."
+  },
+  {
+    name: "The Sisters Brothers",
+    platform: "Amazon",
+    description: "Even though I rarley see Westerns, I very much enjoyed this. Starring Joaquin Phoenix, Jake Gyllenhaal, John C. Riley and Riz Ahmed."
   },
   {
     name: "Burning",
