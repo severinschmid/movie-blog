@@ -2,8 +2,11 @@ const express = require('express');
 const app = express();
 const routes = require('./routes')
 const helmet = require('helmet');
-var hbs = require('express-handlebars');
+const path = require('path')
+let hbs = require('express-handlebars');
 
+const publicPath = path.join(__dirname, './views');
+console.log(publicPath)
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 // View

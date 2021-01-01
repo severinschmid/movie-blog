@@ -6,19 +6,19 @@
   "scripts": {
     "test": "npm run test",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "server:pull": "ssh -t root@84.252.122.178 \"./deploy.sh\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "4.17.1",
     "express-handlebars": "5.2.0",
-    "helmet": "4.2.0",
-    "nconf": "0.11.0",
-    "nodemon": "2.0.6",
-    "path": "0.12.7"
+    "path": "0.12.7",
+    "helmet": "4.2.0"
   },
   "devDependencies": {
+    "nodemon": "2.0.6",
     "eslint": "7.16.0"
   }
 }

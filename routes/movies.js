@@ -48,12 +48,32 @@ const movies = [
   {
     name: "American Factory",
     platform: "Netflix",
-    description: "Produced by the Obamas, this documentary won the academy award. Maybe you think you don´t care about the subject matter but you will still enjoy this."
+    description: "Produced by the Obamas, this documentary won the academy award. Maybe you think you do not care about the subject matter, but I think you will still enjoy this."
   },
   {
     name: "Okja",
     platform: "Netflix",
-    description: "You should see any movie by Bong Joon-Ho that you can find. Please still watch them in the original with subtitles. This one is on Netflix and large part of it are in engish so it is the perfect gateway."
+    description: "You should see any movie by Bong Joon-Ho that you can find. Please still watch them in the original with subtitles. This one is on Netflix and large parts of it are in english so it is the perfect gateway."
+  },
+  {
+    name: "Uncut Gems",
+    platform: "Netflix",
+    description: "Extremely anxiety inducing but also entertaining and one of the most talked about movies of 2019. This is not an Adam Sandler movie. If you enjoy it, you can also watch Good Times on Amazon, by the same directors and starring Robert Pattinson."
+  },
+  {
+    name: "Annihilation",
+    platform: "Netflix",
+    description: "By one of my favorite directors, Alex Garland. He also made the limited Series Devs. Annihilation is his second film as a writer/director and I was so hyped for it after seeing Ex Machina. It definetely deliverers. Maybe too scary for some, and too boring for others, but if you like science fiction, or good movies in general, you have to see this."
+  },
+  {
+    name: "Ex Machina",
+    platform: "Amazon",
+    description: "Sometimes this is not free on Amazon so you might have to spend 99 cents or something, but still. One of my favorite movies, and the directoral debut of Alex Garland, which is crazy to me."
+  },
+  {
+    name: "Soul",
+    platform: "Disney\xa0+",
+    description: "I did not have high expectations, but the Director Pete Docter also made Up and Inside Out, two Pixar movies I enjoyed. This one is fantastic, I was genuinely sad it did not come out in theaters. It made me pretty emotional and I cannot recommend it enough."
   }
 ]
 

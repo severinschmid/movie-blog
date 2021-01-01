@@ -11,9 +11,19 @@ const shows = [
     description: "This is pretty entertaining and low maintenance. No commitment, just a couple of episodes, in fact it started out to become a movie."
   },
   {
+    name: "The Americans",
+    platform: "Netflix",
+    description: "One of my favorite shows. The production value is great, storylines are clever and is just very well constructed. You really have to pay attention though, because most things are not spelled out for you."
+  },
+  {
     name: "Ozark",
     platform: "Netflix",
     description: "At first I thought this is just like Breaking Bad. It kind of is but it is very intense, well acted and overall very entertaining. Also, Julia Garner is in it."
+  },
+  {
+    name: "Brooklyn 99",
+    platform: "Netflix",
+    description: "Again, comedy is subjective. But if you happen to like this kind of comedy, I think you will love Brooklyn 99. But I guess most people already have an opinion about it."
   },
   {
     name: "Breaking Bad",
@@ -39,6 +49,11 @@ const shows = [
     name: "Succession",
     platform: "Sky\xa0Ticket",
     description: "A pretty recent show, it is just in its second season and picking up emmys left and right. The family is awful, but that is the entire point. It is so funny and satirical and features dialogues which remind me a lot of Mad Men. The money stuff in it seems to be very grounded in reality as well, Slate Money even made a podcast about Succession storylines and its real world counterparts."
+  },
+  {
+    name: "The Simpsons",
+    platform: "Disney\xa0+",
+    description: "Hear me out. Most peope I talk to about this do not know The Simpsons belongs to Disney. And I doubt that you have seen the older seasons. So go and watch them!"
   },
   {
     name: "Big Little Lies",

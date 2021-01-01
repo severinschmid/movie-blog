@@ -2,7 +2,7 @@
   <div>
   <div class="filter__options">
     <div>
-      <p class="filter__text text">Select your platforms</p>
+      <p class="filter__text text">Exclude platforms you do not have</p>
     </div>
     <div class="filter__buttons">
       <form action="" method="POST">
@@ -21,7 +21,7 @@
         <h4 class="movie__title">{{this.name}}</h4>
         </span>
         <p class="why">{{this.description}}</p>
-        <p class="where">{{this.platform}}</p>
+        <p class="where">Available on {{this.platform}}</p>
       </div>
     </li>
     {{/each}}
