@@ -101,6 +101,8 @@
 .email__link {
   color: #333333;
   text-decoration: none;
+  box-shadow: #BDEAC7 0 -.4em 0 inset;
+
 }
 .filter__text {
   font-size: 1.5rem;
@@ -155,7 +157,7 @@ h5 {
   color: #333333;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 3rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 2rem;
 }
 

@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 // View
 app.set('view engine', 'hbs');
 app.engine('hbs', hbs({
-  defaultLayout: __dirname + '/views/layouts',
+  layoutsDir: __dirname + '/views/layouts',
   extname: 'hbs',
   helpers: {
     switch: function (value, options) {
