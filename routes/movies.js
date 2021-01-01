@@ -6,9 +6,24 @@ const navigation = config.navigation
 
 const movies = [
   {
+    name: "I am thinking of ending things",
+    platform: "Netflix",
+    description: "A weird one which is kind of hard to recommend. But if you feel that you have seen everything, go see this. I think I have to see this more times to completely get it, or get it at all."
+  },
+  {
     name: "Nightcrawler",
     platform: "Netflix",
     description: "Another Jake Gyllenhaal favorite. It is pretty great, I think even one of my favorites. It´s dark but nothing you can´t handle. This was also the first time I noticed Riz Ahmed and since then I kind of follow his career, too. He is also in Una, The Sisters Brothers and Sound of Metal"
+  },
+  {
+    name: "The forty-year-old version",
+    platform: "Netflix",
+    description: "Written and directed by Radha Blank, who also plays the main role, this is about a drama teacher who decides to become a rapper. It is funny and heartfelt and looks great."
+  },
+  {
+    name: "Knives Out",
+    platform: "Amazon",
+    description: "Who would have thought Rian Johnson would get to make another movie after The Last Jedi. This is it, and it is a fun little Whodunit with a great cast."
   },
   {
     name: "Super Dark Times",
@@ -19,11 +34,6 @@ const movies = [
     name: "Marriage Story",
     platform: "Netflix",
     description: "You should know this one by now. It starrs Adam Driver so of course it is going to appear here. Noah Baumbach made movies in the past that made me think of him as pretentious, but not this one. It is very good."
-  },
-  {
-    name: "I am thinking of ending things",
-    platform: "Netflix",
-    description: "A weird one which is kind of hard to recommend. But if you feel that you have seen everything, go see this. I think I have to see this more times to completely get it, or get it at all."
   },
   {
     name: "It comes at night",

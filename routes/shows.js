@@ -43,7 +43,7 @@ const shows = [
   {
     name: "Devs",
     platform: "Sky\xa0Ticket",
-    description: "From one of my favorite film makers, Alex Garland. So far he made on hit after the other as a director. His two movies are Ex Machina and Annihilation. This is a limited series and very engaging. It is science fiction but I still would recommend this to everyone."
+    description: "From one of my favorite film makers, Alex Garland. So far he made one hit after the other as a director. His two movies are Ex Machina and Annihilation. This is a limited series and very engaging. It is science fiction but I still would recommend this to everyone."
   },
   {
     name: "Succession",
@@ -58,7 +58,7 @@ const shows = [
   {
     name: "Big Little Lies",
     platform: "Sky\xa0Ticket",
-    description: "This one is for all the moms. I liked it too though, more so the first season. Still, this is prestige TV with an all-star cast. All the kid actors are great, and its pretty funny at times."
+    description: "This one is for all the parents. I liked it too though, more so the first season. Still, this is prestige TV with an all-star cast. All the kid actors are great, and its pretty funny at times."
   },
   {
     name: "Catastrophe",
