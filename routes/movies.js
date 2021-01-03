@@ -13,7 +13,7 @@ const movies = [
   {
     name: "Nightcrawler",
     platform: "Netflix",
-    description: "Another Jake Gyllenhaal favorite. It is pretty great, I think even one of my favorites. It´s dark but nothing you can´t handle. This was also the first time I noticed Riz Ahmed and since then I kind of follow his career, too. He is also in Una, The Sisters Brothers and Sound of Metal"
+    description: "Another Jake Gyllenhaal favorite. It is pretty great, I think even one of my favorites. It is dark but nothing you cannot handle. This was also the first time I noticed Riz Ahmed and since then I kind of follow his career, too. He is also in Una, The Sisters Brothers and Sound of Metal"
   },
   {
     name: "The forty-year-old version",
@@ -111,7 +111,7 @@ let platforms = []
 
 movies.forEach(movie => { // compile list of all platforms that exist and if they are currently selected by the user
   let alreadyInIt = platforms.find(x => x.platform == movie.platform)
-  if (!alreadyInIt) platforms.push({ platform: movie.platform, isActive: true })
+  if (typeof alreadyInIt !== undefined && !alreadyInIt) platforms.push({ platform: movie.platform, isActive: true })
 })
 
 async function moviesHandler(req, res, next) {
