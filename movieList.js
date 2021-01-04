@@ -7,7 +7,7 @@ module.exports = [
   {
     name: "Moonrise Kingdom",
     platform: "Netflix",
-    description: "A film by Wes Anderson that you have heard of but do not know is on Netflix. It is pretty sweet, starrs an impressive cast and is overall just nice to watch."
+    description: "A film by Wes Anderson that you have heard of but do not know is on Netflix. It is pretty sweet, features an impressive cast and is overall just nice to watch."
   },
   {
     name: "The Assistant",
