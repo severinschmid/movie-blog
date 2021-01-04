@@ -1,10 +1,5 @@
 module.exports = [
   {
-    name: "Blackpink",
-    platform: "Netflix",
-    description: "A Documentary about K-Pop. I wanted to know what the hype about this genre is about, so I watched this. It is pretty informative and exposes you to a part of pop culture you might not have been exposed to otherwise."
-  },
-  {
     name: "Moonrise Kingdom",
     platform: "Netflix",
     description: "A film by Wes Anderson that you have heard of but do not know is on Netflix. It is pretty sweet, features an impressive cast and is overall just nice to watch."
@@ -13,6 +8,11 @@ module.exports = [
     name: "The Assistant",
     platform: "Amazon",
     description: "Even though you might have to pay for this I would recommend this to almost everyone. It takes place in a pretty ordinary setting but kept me engaged the entire time. It is slow but nevertheless exciting, and it starrs Julia Garner."
+  },
+  {
+    name: "Blackpink",
+    platform: "Netflix",
+    description: "A Documentary about K-Pop. I wanted to know what the hype about this genre is about, so I watched this. It is pretty informative and exposes you to a part of pop culture you might not have been exposed to otherwise."
   },
   {
     name: "I am thinking of ending things",
