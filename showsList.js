@@ -1,5 +1,10 @@
 module.exports = [
   {
+    name: "West World",
+    platform: "Amazon",
+    description: "HBO had very high hopes for Westworld after Game of Thrones ended. The first two seasons are kind of hard to wrap your brain around, but that just keeps it interesting."
+  },
+  {
     name: "Mad Men",
     platform: "Amazon",
     description: "Also a favorite of mine. I know this will probably not be for everyone, it is probably a love it or hate it kind of show. But if you can enjoy amazing production design, paired with witty dialogues and a bunch of great fleshed out characters, you should watch this."

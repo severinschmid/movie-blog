@@ -1,5 +1,10 @@
 module.exports = [
   {
+    name: "Sound of Metal",
+    platform: "Amazon",
+    description: "An original screenplay? Shot on film? In 2020? Even even the bar was higher you should see it. It is heart-warming, Riz Ahmed is great, and so is the entire cast."
+  },
+  {
     name: "Moonrise Kingdom",
     platform: "Netflix",
     description: "A film by Wes Anderson that you have heard of but do not know is on Netflix. It is pretty sweet, features an impressive cast and is overall just nice to watch."
