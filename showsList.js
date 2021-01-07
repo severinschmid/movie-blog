@@ -1,5 +1,10 @@
 module.exports = [
   {
+    name: "Fleabag",
+    platform: "Amazon",
+    description: "Probably one of the most talked-about shows in recent years? Phoebe Waller-Bridge earned a bunch of emmys for it. 12 episodes, 25 minutes each, for those of you who fear commitment. Name another show that is this creative, honest and unique. I´ll wait."
+  },
+  {
     name: "West World",
     platform: "Amazon",
     description: "HBO had very high hopes for Westworld after Game of Thrones ended. The first two seasons are kind of hard to wrap your brain around, but that just keeps it interesting."
@@ -22,12 +27,12 @@ module.exports = [
   {
     name: "Queens Gambit",
     platform: "Netflix",
-    description: "This is pretty entertaining and low maintenance. No commitment, just a couple of episodes, in fact it started out to become a movie."
+    description: "This is pretty entertaining and low maintenance. No commitment, just a couple of episodes, in fact it started out to become a movie. But I should give it more credit than that. The production value is impressive, and watching Anya Taylor-Joy beat Republicans at chess is great."
   },
   {
     name: "The Americans",
     platform: "Netflix",
-    description: "One of my favorite shows. The production value is great, storylines are clever and is just very well constructed. You really have to pay attention though, because most things are not spelled out for you."
+    description: "One of my favorite shows. The world building is great, storylines are clever and is just very well constructed. You really have to pay attention though, because most things are not spelled out for you. But in my opinion it is the best spy and certainly of of the best thriller series out there."
   },
   {
     name: "Ozark",
