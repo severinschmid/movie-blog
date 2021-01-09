@@ -1,5 +1,40 @@
 module.exports = [
   {
+    name: "The Florida Project",
+    platform: "Amazon",
+    description: "It is not for free on amazon, but it is on sale very often and also in the Arthouse CNMA channel. I love this, and I do not exactly know why. Maybe it is because of the main child actress Brooklyn Prince, or Willem Dafoe, or the constant swearing, or the adventure."
+  },
+  {
+    name: "The Babadook",
+    platform: "Amazon",
+    description: "The trailer makes this look so incredibly violent but it is not. It is a horror movie though. But it is also more than that. Jennifer Kent is the writer/director, in 2019 she made The Nightingale, which is one of the most unsettling movies I have seen."
+  },
+  {
+    name: "Us",
+    platform: "Amazon",
+    description: "The second movie of Jordan Peele after Get Out. Thus expectations were incredibly high, but Us still delievered. It has horror elements but I would call this more of a thriller. It is of course creepy but in the best possible way."
+  },
+  {
+    name: "Upgrade",
+    platform: "Amazon",
+    description: "Pretty good action movie. The fight scenes are fun and creative, and overall it is perfect for a rainy sunday afternoon or something."
+  },
+  {
+    name: "Parasite",
+    platform: "Amazon",
+    description: "Again, you already know this one. It is on amazon, and it is great. Even if you watched it already, watch it again. In the original version with subtitles of course."
+  },
+  {
+    name: "The Shape of Water",
+    platform: "Netflix",
+    description: "I should not have to tell you about this, it won the Oscar for best picture. But if you have not seen it, now is your chance."
+  },
+  {
+    name: "My Neighbor Totoro",
+    platform: "Netflix",
+    description: "Studio Ghibli is just amazing. I only saw My Neighbor Totoro recently. Despite the lack of a central protagonist, jokes, any threat or villain, a beginning or an end, this is one of the best animation movies ever made."
+  },
+  {
     name: "Sound of Metal",
     platform: "Amazon",
     description: "An original screenplay? Shot on film? In 2020? Even even the bar was higher you should see it. It is heart-warming, Riz Ahmed is great, and so is the entire cast."

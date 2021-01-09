@@ -1,5 +1,10 @@
 module.exports = [
   {
+    name: "Fargo",
+    platform: "Netflix",
+    description: "Maybe you should also watch the movie Fargo by the Coen Brothers first. But this stands on its own just fine. Every season of this is entirely different, but the theme remains the same: Ordinary people committing crimes. And it is pretty good."
+  },
+  {
     name: "Fleabag",
     platform: "Amazon",
     description: "Probably one of the most talked-about shows in recent years? Phoebe Waller-Bridge earned a bunch of emmys for it. 12 episodes, 25 minutes each, for those of you who fear commitment. Name another show that is this creative, honest and unique. I´ll wait."
