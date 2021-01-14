@@ -1,5 +1,25 @@
 module.exports = [
   {
+    name: "Wind River",
+    platform: "Netflix",
+    description: "I remember seeing this in a sneak preview and being the one of my friends who liked it the most. I don´t know why anymore. But I still would recommend it. The atmosphere is great and it has a lot of emotional and intense moments. If you find Jeremy Renner off-putting, I get it. But give it a chance."
+  },
+  {
+    name: "Battle of the Sexes",
+    platform: "Netflix",
+    description: "This came on in a sneak preview a while back. I enjoyed it more than I thought I would."
+  },
+  {
+    name: "Three Billboards outside Ebbing, Missouri",
+    platform: "Netflix",
+    description: "Time really flew by in this one. It might be to crass for some, because most people depicted in this are horrible in some way. But there is so much great stuff about it, especially Frances McDormand who won the Academy Award for Best Lead Actress that year."
+  },
+  {
+    name: "Thunder Road",
+    platform: "Mubi",
+    description: "Written, directed and performed by Jim Cummings. It is just impressive, Jim Cummings is extremely talented. If you are in the mood for a sweet Indie movie, this is one option. I try to feature more stuff from mubi, you should consider getting the free month trial."
+  },
+  {
     name: "The Florida Project",
     platform: "Amazon",
     description: "It is not for free on amazon, but it is on sale very often and also in the Arthouse CNMA channel. I love this, and I do not exactly know why. Maybe it is because of the main child actress Brooklyn Prince, or Willem Dafoe, or the constant swearing, or the adventure."

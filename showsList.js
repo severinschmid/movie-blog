@@ -1,5 +1,20 @@
 module.exports = [
   {
+    name: "Normal People",
+    platform: "Amazon",
+    description: "Get yourself a month of the Starzplay Channel and watch this. It has one minor flaw, maybe you will find out what I mean. But the love story really takes its time and is pretty well developed. The two main leads are great and I found myself rooting for them, a lot."
+  },
+  {
+    name: "Killing Eve",
+    platform: "Amazon",
+    description: "Also on the Starzplay Channel. The first season is created by Phoebe-Waller Bridge, so you kind of have to see it."
+  },
+  {
+    name: "The Last Dance",
+    platform: "Netflix",
+    description: "The story behind this: The 1997 Chicago Bulls allowed a crew to film their preparations for their sixth NBA title in 8 years. This documentary series shows this footage, and more. It is just great, all the interviews, the incredible basketball moments, the fashion... The 90s are the new 80s."
+  },
+  {
     name: "Fargo",
     platform: "Netflix",
     description: "Maybe you should also watch the movie Fargo by the Coen Brothers first. But this stands on its own just fine. Every season of this is entirely different, but the theme remains the same: Ordinary people committing crimes. And it is pretty good."
