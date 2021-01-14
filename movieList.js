@@ -17,7 +17,7 @@ module.exports = [
   {
     name: "Thunder Road",
     platform: "Mubi",
-    description: "Written, directed and performed by Jim Cummings. It is just impressive, Jim Cummings is extremely talented. If you are in the mood for a sweet Indie movie, this is one option. I try to feature more stuff from mubi, you should consider getting the free month trial."
+    description: "Written, directed and performed by Jim Cummings. It is just impressive, Jim Cummings is extremely talented. If you are in the mood for a sweet Indie movie, this is one option. I try to feature more stuff from mubi, you should consider getting the free month trial. This spring, the first three months are just 33 cents each. Otherwise use this link: https://mubi.com/t/web/global/uodA5erG."
   },
   {
     name: "The Florida Project",
