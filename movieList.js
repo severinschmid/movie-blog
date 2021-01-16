@@ -1,4 +1,16 @@
 module.exports = [
+  // hell or high water netflix
+
+  {
+    name: "Hell Or High Water",
+    platform: "Netflix",
+    description: "I like a good crime story, and this reminded my a lot of No Country for Old Men, mostly because of the setting of course. It was nominated for Best Picture, and is written by Taylor Sheridan who also wrote Sicario and Wind River."
+  },
+  {
+    name: "Paddleton",
+    platform: "Netflix",
+    description: "I am always interested in what Mark Duplass does, so I watched this without knowing too much else about it. It a mostly improvised mumblecore movie, and it is deeply emotional. You should be patient with it though."
+  },
   {
     name: "Wind River",
     platform: "Netflix",
