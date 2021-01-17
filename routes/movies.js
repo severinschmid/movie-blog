@@ -13,15 +13,25 @@ function getMovieByPlatform(platforms) {
   return movs
 }
 
+
+const initMovieList = () => {
+  let s = []
+  movies.forEach(movie => {
+    s.push(movie)
+  })
+  return s
+}
+
 let platforms = []
 
 movies.forEach(movie => { // compile list of all platforms that exist and if they are currently selected by the user
   let alreadyInIt = platforms.find(x => x.platform == movie.platform)
-  if (typeof alreadyInIt !== undefined && !alreadyInIt) platforms.push({ platform: movie.platform, isActive: true })
+  if (typeof alreadyInIt !== undefined && !alreadyInIt) platforms.push({ platform: movie.platform, isActive: false })
 })
 
 async function moviesHandler(req, res, next) {
-  
+  var movieListToRender = initMovieList();
+
   try {
     const excludedPlatform = req.body.platform;
 
@@ -33,13 +43,14 @@ async function moviesHandler(req, res, next) {
       else {
         platforms.find(x => x.platform == excludedPlatform).isActive = true
       }
+      movieListToRender = getMovieByPlatform(platforms)
     }
 
     return res.render('main', {
       layout: 'index',
       navigation,
       platforms,
-      movies: getMovieByPlatform(platforms),
+      movies: movieListToRender,
       type: "movies"
     })
   } catch (err) {
