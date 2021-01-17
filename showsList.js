@@ -14,12 +14,12 @@ module.exports = [
   {
     name: "Crashing",
     platform: "Netflix",
-    description: "If you want to see more by Phoebe Waller-Bridge after you finised Fleabag. This is not quite as good as Fleabag, and it is only one season."
+    description: "If you want to see more by Phoebe Waller-Bridge after you finished Fleabag. This is not quite as good as Fleabag, and it is only one season."
   },
   {
     name: "Community",
     platform: "Netflix",
-    description: "From Rick and Morty Creator Dan Harmon. It has so many clever pop culture references, meta humor and insanely entertaining episodes. It takes a turn to the worst after season 3, but those first seasons are among my favorite TV shows."
+    description: "From Rick and Morty co-creator Dan Harmon. It has so many clever pop culture references, meta humor and insanely entertaining episodes. It takes a turn to the worst after season 3, but those first seasons are among my favorite TV shows."
   },
   {
     name: "Detroiters",
@@ -29,7 +29,7 @@ module.exports = [
   {
     name: "I think you should leave",
     platform: "Netflix",
-    description: "To me this is one of the funniest things on netflix. It is only one season with only 6 episodes, and I have seen it several times. It is also very quotable."
+    description: "To me this is one of the funniest things on netflix. It is only one season with 6 episodes, and I have seen it several times. A few sketches are not as funny as the rest, but overall it is great. It is also very quotable. "
   },
   {
     name: "Arrested Development",
