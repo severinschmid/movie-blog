@@ -67,12 +67,12 @@
   border: none;
   font-weight: bolder;
   ;
-  color: black;
+  color: lightgray;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  background-color: palegoldenrod;
+  background-color: whitesmoke;
   width: 8rem;
   height: 2rem;
   margin: .5rem;
@@ -110,6 +110,7 @@
 
 .button__isActive {
   background-color: #BDEAC7;
+  color: black;
 }
 
 .movie__list {

@@ -9,7 +9,7 @@ module.exports = [
   {
     name: "Paddleton",
     platform: "Netflix",
-    description: "I am always interested in what Mark Duplass does, so I watched this without knowing too much else about it. It a mostly improvised mumblecore movie, and it is deeply emotional. You should be patient with it though."
+    description: "I am always interested in what Mark Duplass does, so I watched this without knowing too much else about it. It is a mostly improvised mumblecore movie, and it is deeply emotional. You should be patient with it though."
   },
   {
     name: "Wind River",
@@ -24,7 +24,7 @@ module.exports = [
   {
     name: "Three Billboards outside Ebbing, Missouri",
     platform: "Netflix",
-    description: "Time really flew by in this one. It might be to crass for some, because most people depicted in this are horrible in some way. But there is so much great stuff about it, especially Frances McDormand who won the Academy Award for Best Lead Actress that year."
+    description: "Time really flew by with this one. It might be to crass for some, because most people depicted in this are horrible in some way. But there is so much great stuff about it, especially Frances McDormand who won the Academy Award for Best Lead Actress that year."
   },
   {
     name: "Thunder Road",
@@ -34,7 +34,7 @@ module.exports = [
   {
     name: "The Florida Project",
     platform: "Amazon",
-    description: "It is not for free on amazon, but it is on sale very often and also in the Arthouse CNMA channel. I love this, and I do not exactly know why. Maybe it is because of the main child actress Brooklyn Prince, or Willem Dafoe, or the constant swearing, or the adventure."
+    description: "It is not for free on amazon, but it is on sale very often and also on the Arthouse CNMA channel. I love this, and I do not exactly know why. Maybe it is because of the main child actress Brooklyn Prince, or Willem Dafoe, or the constant swearing, or the adventure."
   },
   {
     name: "The Babadook",
@@ -79,7 +79,7 @@ module.exports = [
   {
     name: "The Assistant",
     platform: "Amazon",
-    description: "Even though you might have to pay for this I would recommend this to almost everyone. It takes place in a pretty ordinary setting but kept me engaged the entire time. It is slow but nevertheless exciting, and it starrs Julia Garner."
+    description: "Even though you might have to pay for this I would recommend this to almost everyone. It takes place in what seems to be an ordinary setting, but kept me engaged the entire time. It is slow but nevertheless exciting, and it starrs Julia Garner."
   },
   {
     name: "Blackpink",

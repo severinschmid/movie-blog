@@ -4,11 +4,11 @@ const navigation = config.navigation
 const shows = require('../showsList')
 
 
-function getMovieByPlatform(platforms) {
+function getShowByPlatform(platforms) {
   let s = []
-  shows.forEach(movie => {
-    if (platforms.find(x => x.platform == movie.platform && x.isActive)) {
-      s.push(movie)
+  shows.forEach(show => {
+    if (platforms.find(x => x.platform == show.platform && x.isActive)) {
+      s.push(show)
     }
   })
   return s
@@ -16,9 +16,9 @@ function getMovieByPlatform(platforms) {
 
 let platforms = []
 
-shows.forEach(movie => { // compile list of all platforms that exist and if they are currently selected by the user
-  let alreadyInIt = platforms.find(x => x.platform == movie.platform)
-  if (!alreadyInIt && movie.platform !="") platforms.push({ platform: movie.platform, isActive: true })
+shows.forEach(show => { // compile list of all platforms that exist and if they are currently selected by the user
+  let alreadyInIt = platforms.find(x => x.platform == show.platform)
+  if (!alreadyInIt && show.platform !="") platforms.push({ platform: show.platform, isActive: true })
 })
 
 async function showsHandler(req, res, next) {
@@ -40,7 +40,7 @@ async function showsHandler(req, res, next) {
       layout: 'index',
       navigation,
       platforms,
-      shows: getMovieByPlatform(platforms),
+      shows: getShowByPlatform(platforms),
       type: "shows"
     })
   } catch (err) {
