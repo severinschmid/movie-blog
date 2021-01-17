@@ -2,8 +2,15 @@ module.exports = [
   // girls
   // unorthodox
   // unbelievable
+  // veep
+  // silicon valley
+
   
-  
+  {
+    name: "Veep",
+    platform: "Sky\xa0Ticket",
+    description: "Very funny if you pay attention. Otherwise you would probably think this is just a boring political sitcom. But it is incredibly well written and has kind of a legendary status in the US."
+  },
   {
     name: "Crashing",
     platform: "Netflix",
