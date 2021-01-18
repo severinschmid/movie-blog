@@ -1,5 +1,5 @@
 module.exports = [
-// booksmart
+  // booksmart
   // mubi chaser  
   // sky good boys
   // mid 90s mubi
@@ -9,12 +9,14 @@ module.exports = [
   {
     name: "The Wailing",
     platform: "Amazon",
-    description: "Please, I want to talk to someone about this! It is a korean horror movie. And one of the most gripping and insane movies I know. It is truly a horror masterpiece. Korean cinema has a lot more to offer than Parasite."
+    description: "Please, I want to talk to someone about this! It is a korean horror movie. And one of the most gripping and insane movies I know. It is truly a horror masterpiece. Korean cinema has a lot more to offer than Parasite.",
+    link: "https://www.amazon.de/gp/video/detail/B076BYV5BX/ref=atv_dp_share_cu_r"
   },
   {
     name: "Hell Or High Water",
     platform: "Netflix",
-    description: "I like a good crime story, and this reminded my a lot of No Country for Old Men, mostly because of the setting of course. It was nominated for Best Picture, and is written by Taylor Sheridan who also wrote Sicario and Wind River."
+    description: "I like a good crime story, and this reminded my a lot of No Country for Old Men, mostly because of the setting of course. It was nominated for Best Picture, and is written by Taylor Sheridan who also wrote Sicario and Wind River.",
+    link: "https://www.netflix.com/title/80108616?s=a&trkid=13747225&t=cp"
   },
   {
     name: "Paddleton",

@@ -98,7 +98,7 @@
 }
 
 
-.email__link {
+.link__default {
   color: #333333;
   text-decoration: none;
   box-shadow: #BDEAC7 0 -.4em 0 inset;
