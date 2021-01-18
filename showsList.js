@@ -79,7 +79,7 @@ module.exports = [
   {
     name: "Master of None",
     platform: "Netflix",
-    description: "One of my favorite shows. The characters are all just so likeable, the dialogues are great and it is very honest. It is also the highest rated Netflix show on Rotten Tomatoes."
+    description: "Definitely a favorite of mine. The characters are all just so likeable, the dialogues are great and it is very honest. It is also the highest rated Netflix show on Rotten Tomatoes."
   },
   {
     name: "Queens Gambit",
@@ -129,7 +129,7 @@ module.exports = [
   {
     name: "The Simpsons",
     platform: "Disney\xa0+",
-    description: "Hear me out. Most peope I talk to about this do not know The Simpsons belongs to Disney. And I doubt that you have seen the older seasons. So go and watch them!"
+    description: "Hear me out. Most peope I talk to do not know The Simpsons is owned by Disney. And I doubt that you have seen the older seasons recently. Those are among the best TV ever made."
   },
   {
     name: "Big Little Lies",
@@ -139,6 +139,6 @@ module.exports = [
   {
     name: "Catastrophe",
     platform: "Amazon",
-    description: "An english series to shake things up a bit. I guess comedy is subjecitve but I find this pretty funny. The depicted releationship is unlike many others on TV, and the two protagonists wrote and created the show."
+    description: "An english series to shake things up a bit. I guess comedy is subjective but I find this pretty funny. The depicted releationship is unlike many others on TV, and the two protagonists wrote and created the show."
   },
 ]

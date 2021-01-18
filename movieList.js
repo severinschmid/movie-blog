@@ -1,6 +1,16 @@
 module.exports = [
-  // hell or high water netflix
+// booksmart
+  // mubi chaser  
+  // sky good boys
+  // mid 90s mubi
+  // the hunt cnma
 
+
+  {
+    name: "The Wailing",
+    platform: "Amazon",
+    description: "Please, I want to talk to someone about this! It is a korean horror movie. And one of the most gripping and insane movies I know. It is truly a horror masterpiece. Korean cinema has a lot more to offer than Parasite."
+  },
   {
     name: "Hell Or High Water",
     platform: "Netflix",

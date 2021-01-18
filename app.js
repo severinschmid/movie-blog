@@ -30,4 +30,9 @@ app.engine('hbs', hbs({
 app.use(express.static('public'))
 app.use(routes)
 
+app.get('/robots.txt', function (req, res) {
+  res.type('text/plain');
+  res.send("User-agent: *\nDisallow: /");
+});
+
 module.exports = app;
