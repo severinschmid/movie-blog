@@ -8,7 +8,7 @@ module.exports = [
   {
     name: "Mid 90s",
     platform: "Mubi",
-    description: "The marketing angle for this one is that it is the directorial debut of Jonah Hill. It is a coming-of-age film about friendship and its pretty nostalgic.",
+    description: "The marketing angle: this is the directorial debut of Jonah Hill. It´s a coming-of-age film about friendship and pretty nostalgic.",
     link: "https://mubi.com/films/mid-90s"
   },
   {
