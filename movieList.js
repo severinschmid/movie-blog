@@ -2,10 +2,15 @@ module.exports = [
   // booksmart
   // mubi chaser  
   // sky good boys
-  // mid 90s mubi
   // the hunt cnma
 
 
+  {
+    name: "Mid 90s",
+    platform: "Mubi",
+    description: "The marketing angle for this one is that it is the directorial debut of Jonah Hill. It is a coming-of-age film about friendship and its pretty nostalgic.",
+    link: "https://mubi.com/films/mid-90s"
+  },
   {
     name: "The Wailing",
     platform: "Amazon",

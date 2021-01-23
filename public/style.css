@@ -58,8 +58,7 @@
 }
 
 .topnav a:hover {
-  background-color: #BDEAC7;
-  color: rgb(22, 22, 22);
+  box-shadow: #BDEAC7 0 -.3em 0 inset;
 }
 
 
@@ -104,6 +103,7 @@
   box-shadow: #BDEAC7 0 -.4em 0 inset;
 
 }
+
 .filter__text {
   font-size: 1.5rem;
 }
@@ -201,6 +201,4 @@ h5 {
 }
 
 
-@media screen and (max-width: 999px) {
- 
-}
+@media screen and (max-width: 999px) {}
