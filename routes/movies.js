@@ -30,25 +30,34 @@ movies.forEach(movie => { // compile list of all platforms that exist and if the
   if (typeof alreadyInIt !== undefined && !alreadyInIt) platforms.push({ platform: movie.platform, isActive: false })
 })
 
-async function moviesHandler(req, res, next) {
-  var movieListToRender = initMovieList();
-  if (req.session.page_views) {
-    req.session.page_views++;
-   } else {
-      req.session.page_views = 1;
-  }
-
+function log(req) {
   var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress
   var date = new Date();
   var current_hour = date.getHours();
   var current_minute = date.getMinutes();
-  fs.appendFile("sessions.log", `\n ${JSON.stringify({ time: current_hour + ":" + current_minute, ip: ip, sessions: req.session.page_views })}`, function (err) {
+  var month = date.getUTCMonth() + 1; //months from 1-12
+  var day = date.getUTCDate();
+  fs.appendFile("sessions.log", `\n ${JSON.stringify({
+    time: day + "/" +
+      month + ":" + current_hour + ":" + current_minute, ip: ip, sessions: req.session.page_views
+  })}`, function (err) {
     if (err) {
       return console.log(err);
     }
     console.log("The file was saved!");
-  }); 
-  
+  });
+}
+
+async function moviesHandler(req, res, next) {
+  var movieListToRender = initMovieList();
+  if (req.session.page_views) {
+    req.session.page_views++;
+  } else {
+    req.session.page_views = 1;
+  }
+
+  log(req)
+
   try {
     const excludedPlatform = req.body.platform;
 
