@@ -4,11 +4,16 @@ const routes = require('./routes')
 const helmet = require('helmet');
 const path = require('path')
 let hbs = require('express-handlebars');
+var session = require('express-session');
+
+
 
 const publicPath = path.join(__dirname, './views');
 console.log(publicPath)
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
+app.use(session({ secret: "Shh, its a secret!" }));
+
 // View
 app.set('view engine', 'hbs');
 app.engine('hbs', hbs({

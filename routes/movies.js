@@ -2,6 +2,7 @@ const hbs = require('express-handlebars')
 const config = require('../config')
 const navigation = config.navigation
 const movies = require('../movieList')
+const fs = require('fs');
 
 function getMovieByPlatform(platforms) {
   let movs = []
@@ -31,7 +32,21 @@ movies.forEach(movie => { // compile list of all platforms that exist and if the
 
 async function moviesHandler(req, res, next) {
   var movieListToRender = initMovieList();
+  if (req.session.page_views) {
+    req.session.page_views++;
+   } else {
+      req.session.page_views = 1;
+  }
 
+  var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress
+  
+  fs.appendFile("sessions.log", `\n ${JSON.stringify({ ip: ip, sessions: req.session.page_views })}`, function (err) {
+    if (err) {
+      return console.log(err);
+    }
+    console.log("The file was saved!");
+  }); 
+  
   try {
     const excludedPlatform = req.body.platform;
 
