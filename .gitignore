@@ -11,3 +11,5 @@ jsconfig.json
 
 nvm.env
 nvm-installer
+
+sessions.log

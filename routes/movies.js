@@ -39,8 +39,10 @@ async function moviesHandler(req, res, next) {
   }
 
   var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress
-  
-  fs.appendFile("sessions.log", `\n ${JSON.stringify({ ip: ip, sessions: req.session.page_views })}`, function (err) {
+  var date = new Date();
+  var current_hour = date.getHours();
+  var current_minute = date.getMinutes();
+  fs.appendFile("sessions.log", `\n ${JSON.stringify({ time: current_hour + ":" + current_minute, ip: ip, sessions: req.session.page_views })}`, function (err) {
     if (err) {
       return console.log(err);
     }
