@@ -6,6 +6,12 @@ module.exports = [
 
 
   {
+    name: "American Animals",
+    platform: "Amazon",
+    description: "This is something special. It´s a fusion of documentary and feature and is unlike anything I have ever seen. I think this is way overlooked.",
+    link: "https://www.amazon.de/gp/video/detail/B07MDX77KH/ref=atv_dp_share_cu_r"
+  },
+  {
     name: "Mid 90s",
     platform: "Mubi",
     description: "The marketing angle: this is the directorial debut of Jonah Hill. It´s a coming-of-age film about friendship and pretty nostalgic.",
