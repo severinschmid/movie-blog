@@ -8,7 +8,7 @@ module.exports = [
   {
     name: "Eighth Grade",
     platform: "Netflix",
-    description: "It is not on Netflix yet but it will be on the february 4th. Bo Burnham is one of my all-time favorite comedians and this is his first feature film. I absolutely love it. It is funny and sweet and unique and very charming. It has a 99% score on rotten tomatoes and I would like to speak to the 1% to find out what is wrong with them."
+    description: "It is not on Netflix yet but it will be on february 4th. Bo Burnham is one of my all-time favorite comedians and this is his first feature film. I absolutely love it. It is funny and sweet and unique and very charming. It has a 99% score on rotten tomatoes and I would like to speak to the 1% to find out what is wrong with them."
   },
   {
     name: "American Animals",
