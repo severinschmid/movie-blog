@@ -56,7 +56,7 @@ async function moviesHandler(req, res, next) {
     req.session.page_views = 1;
   }
 
-  log(req)
+  // log(req)
 
   try {
     const excludedPlatform = req.body.platform;
