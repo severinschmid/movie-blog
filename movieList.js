@@ -6,9 +6,16 @@ module.exports = [
 
 
   {
+    name: "The Place Beyond the Pines",
+    platform: "Amazon",
+    description: "I have not seen this in a while but I remember it very fondly. It is not what you expect from it but it is very well made, exciting and kind of moving?",
+    link: "https://www.amazon.de/gp/video/detail/B00I84GPFE/ref=atv_dp_share_cu_r"
+  },
+  {
     name: "Eighth Grade",
     platform: "Netflix",
-    description: "It is not on Netflix yet but it will be on february 4th. Bo Burnham is one of my all-time favorite comedians and this is his first feature film. I absolutely love it. It is funny and sweet and unique and very charming. It has a 99% score on rotten tomatoes and I would like to speak to the 1% to find out what is wrong with them."
+    description: "Bo Burnham is one of my all-time favorite comedians and this is his first feature film. I absolutely love it. It is funny and sweet and unique and very charming. It has a 99% score on rotten tomatoes and I would like to speak to the 1% to find out what is wrong with them.",
+    link: "https://www.netflix.com/search?q=eig&jbv=80238596"
   },
   {
     name: "American Animals",
