@@ -6,6 +6,18 @@ module.exports = [
 
 
   {
+    name: "10 Cloverfield Lane",
+    platform: "Amazon",
+    description: "You definetely do not have to have seen Cloverfield for this. This is just such a claustrophobic, exciting and well executed movie. If it wasn´t for the last 10 minutes or so... You can really see the discrepancy between the filmmakers and studio interests.",
+    link: "https://www.youtube.com/watch?v=saHzng8fxLs"
+  },
+  {
+    name: "The VVitch",
+    platform: "Netflix",
+    description: "One of my all-time favorite horror movies and my favorite movie of 2016. Netflix uploaded a few movies of Anya Taylor-Joy because of Queens Gambit, Thoroughbreds being another good one. Back to The VVitch. It is not very violent but incredibly moody and tense. It is also Robert Eggers directoral debut which is crazy.",
+    link: "https://www.youtube.com/watch?v=iQXmlf3Sefg"
+  },
+  {
     name: "The Place Beyond the Pines",
     platform: "Amazon",
     description: "I have not seen this in a while but I remember it very fondly. It is not what you expect from it but it is very well made, exciting and kind of moving?",
