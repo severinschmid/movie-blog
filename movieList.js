@@ -9,7 +9,7 @@ module.exports = [
     name: "Fruitvale Station",
     platform: "Netflix",
     description: "This is such a necessary film to watch. It´s early work from Ryan Coogler (director of Black Panther and Creed), starring Michael B. Jordan and with music from Ludwig Göransson (Mandalorian, Black Panther, and everything else by now). The performance of Jordan is something else.",
-    link: "https://www.youtube.com/watch?v=HRlu1Dsc39I"
+    link: "https://www.youtube.com/watch?v=vHkKUPHn8TE"
   },
   {
     name: "10 Cloverfield Lane",
