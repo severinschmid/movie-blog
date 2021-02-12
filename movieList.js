@@ -6,6 +6,12 @@ module.exports = [
 
 
   {
+    name: "Fruitvale Station",
+    platform: "Netflix",
+    description: "This is such a necessary film to watch. It´s early work from Ryan Coogler (director of Black Panther and Creed), starring Michael B. Jordan and with music from Ludwig Göransson (Mandalorian, Black Panther, and everything else by now). The performance of Jordan is something else.",
+    link: "https://www.youtube.com/watch?v=HRlu1Dsc39I"
+  },
+  {
     name: "10 Cloverfield Lane",
     platform: "Amazon",
     description: "You definetely do not have to have seen Cloverfield for this. This is just such a claustrophobic, exciting and well executed movie. If it wasn´t for the last 10 minutes or so... You can really see the discrepancy between the filmmakers and studio interests.",
@@ -160,7 +166,7 @@ module.exports = [
   },
   {
     name: "Super Dark Times",
-    platform: "Netflix",
+    platform: "Amazon",
     description: "Pretty intense thriller. It is so low key, but it is riveting and sometimes infuriating. I remember it to look awesome, too."
   },
   {
