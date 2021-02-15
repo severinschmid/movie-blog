@@ -6,6 +6,12 @@ module.exports = [
 
 
   {
+    name: "Ham on Rye",
+    platform: "Mubi",
+    description: "I am still trying to get people to subscribe to Mubi. This was extremely refreshing and genuinely very funny. It is like the artsy version of Eigtht Grade.",
+    link: "https://www.youtube.com/watch?v=X6xtcQDPF20"
+  },
+  {
     name: "Fruitvale Station",
     platform: "Netflix",
     description: "This is such a necessary film to watch. It´s early work from Ryan Coogler (director of Black Panther and Creed), starring Michael B. Jordan and with music from Ludwig Göransson (Mandalorian, Black Panther, and everything else by now). The performance of Jordan is something else.",
@@ -187,7 +193,7 @@ module.exports = [
   {
     name: "Burning",
     platform: "Amazon",
-    description: "I guess this is the movie I think about the most, it is currently in my top three favorite movies. To be brief, I was just so immersed into this. The world feels so lived-in, the performances are great, and it is one of the best looking films I have ever seen. No other movie I know depicts poverty and class in South Korea like Burning. Some day I am going to make all my friends watch it."
+    description: "I guess this is the movie I think about the most, it is currently in my top three favorite movies. To be brief, I was just so immersed into this. The world feels so lived-in, the performances are great, and it is one of the best looking films I have ever seen. I just watched it again to make sure and it is still a masterpiece. But don´t text me saying it is boring, or else! And of course, watch it with subtitles."
   },
   {
     name: "Prisoners",
