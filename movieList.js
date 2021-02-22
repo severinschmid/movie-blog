@@ -6,12 +6,17 @@ module.exports = [
 
 
   {
+    name: "Quincy",
+    platform: "Netflix",
+    description: "I think there is a strong argument to be made that no other single person influenced modern pop culture and music like Quincy Jones. This documentary is pretty good, made by his daughter Rashida Jones who you might know."
+  },
+  {
     name: "Ham on Rye",
     platform: "Mubi",
     description: "I am still trying to get people to subscribe to Mubi. This was extremely refreshing and genuinely very funny. It is like the artsy version of Eigtht Grade.",
     link: "https://www.youtube.com/watch?v=X6xtcQDPF20"
   },
-  {
+  { 
     name: "Fruitvale Station",
     platform: "Netflix",
     description: "This is such a necessary film to watch. It´s early work from Ryan Coogler (director of Black Panther and Creed), starring Michael B. Jordan and with music from Ludwig Göransson (Mandalorian, Black Panther, and everything else by now). The performance of Jordan is something else.",
