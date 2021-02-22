@@ -11,6 +11,12 @@ module.exports = [
     description: "I think there is a strong argument to be made that no other single person influenced modern pop culture and music like Quincy Jones. This documentary is pretty good, made by his daughter Rashida Jones who you might know."
   },
   {
+    name: "The Big Sick",
+    platform: "Amazon",
+    description: "Extremely well received at the time. It is one of the best rom-coms I know, so much so that it transcends the genre and becomes just a good movie.",
+    link: "https://www.youtube.com/watch?v=jcD0Daqc3Yw"
+  },
+  {
     name: "Ham on Rye",
     platform: "Mubi",
     description: "I am still trying to get people to subscribe to Mubi. This was extremely refreshing and genuinely very funny. It is like the artsy version of Eigtht Grade.",
@@ -25,7 +31,7 @@ module.exports = [
   {
     name: "10 Cloverfield Lane",
     platform: "Amazon",
-    description: "You definetely do not have to have seen Cloverfield for this. This is just such a claustrophobic, exciting and well executed movie. If it wasn´t for the last 10 minutes or so... You can really see the discrepancy between the filmmakers and studio interests.",
+    description: "You definitely do not have to have seen Cloverfield for this. This is just such a claustrophobic, exciting and well executed movie. If it wasn´t for the last 10 minutes or so... You can really see the discrepancy between the filmmakers and studio interests.",
     link: "https://www.youtube.com/watch?v=saHzng8fxLs"
   },
   {
@@ -228,7 +234,7 @@ module.exports = [
   {
     name: "Annihilation",
     platform: "Netflix",
-    description: "By one of my favorite directors, Alex Garland. He also made the limited Series Devs. Annihilation is his second film as a writer/director and I was so hyped for it after seeing Ex Machina. It definetely deliverers. Maybe too scary for some, and too boring for others, but if you like science fiction, or good movies in general, you have to see this."
+    description: "By one of my favorite directors, Alex Garland. He also made the limited Series Devs. Annihilation is his second film as a writer/director and I was so hyped for it after seeing Ex Machina. It definitely deliverers. Maybe too scary for some, and too boring for others, but if you like science fiction, or good movies in general, you have to see this."
   },
   {
     name: "Ex Machina",
