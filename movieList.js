@@ -6,7 +6,7 @@ module.exports = [
 
 
   {
-    name: "The Dead don´t die",
+    name: "The Dead Don´t Die",
     platform: "Amazon",
     description: "If the names Adam Driver and Jim Jarmusch mean anything to you, you know why you got to see this. Otherwise I would recommend this to a certain audience, I found it to be pretty funny.",
     link: "https://www.youtube.com/watch?v=bs5ZOcU6Bnw"
@@ -14,7 +14,7 @@ module.exports = [
   {
     name: "The Art of Self Defense",
     platform: "Amazon",
-    description: "This was the opening movie for the 2019 Munich Film Festival. It is definitely worth a watch. But it gets darker than even I would have",
+    description: "This was the opening movie for the 2019 Munich Film Festival. It is definitely worth a watch. But it gets darker than even I would have anticipated",
     link: "https://www.youtube.com/watch?v=7Bms6Hba-3A"
   },
   {
