@@ -6,6 +6,18 @@ module.exports = [
 
 
   {
+    name: "The Dead don´t die",
+    platform: "Amazon",
+    description: "If the names Adam Driver and Jim Jarmusch mean anything to you, you know why you got to see this. Otherwise I would recommend this to a certain audience, I found it to be pretty funny.",
+    link: "https://www.youtube.com/watch?v=bs5ZOcU6Bnw"
+  },
+  {
+    name: "The Art of Self Defense",
+    platform: "Amazon",
+    description: "This was the opening movie for the 2019 Munich Film Festival. It is definitely worth a watch. But it gets darker than even I would have",
+    link: "https://www.youtube.com/watch?v=7Bms6Hba-3A"
+  },
+  {
     name: "Quincy",
     platform: "Netflix",
     description: "I think there is a strong argument to be made that no other single person influenced modern pop culture and music like Quincy Jones. This documentary is pretty good, made by his daughter Rashida Jones who you might know."
@@ -13,7 +25,7 @@ module.exports = [
   {
     name: "The Big Sick",
     platform: "Amazon",
-    description: "Extremely well received at the time. It is one of the best rom-coms I know, so much so that it transcends the genre and becomes just a good movie.",
+    description: "Extremely well received at the time. It is one of the best rom-coms I know, so much so that it transcends the genre and becomes just a good movie. And Bo Burnham is in it?!",
     link: "https://www.youtube.com/watch?v=jcD0Daqc3Yw"
   },
   {
