@@ -7,6 +7,16 @@ module.exports = [
 
 
   {
+    name: "Feel Good",
+    platform: "Netflix",
+    description: "This is basically a movie. Six episodes, 25 minutes each. So it is perfect for the weekend. Because it is so short I kind of don´t want to say anything else about it, just put it on your watch list."
+  },
+  {
+    name: "Schitt´s Creek",
+    platform: "Sky\xa0Ticket",
+    description: "Very recently watched this, but on american Netflix. Now it is on Sky and it is very refreshing and funny and heart-warming and deserves all the attention it got."
+  },
+  {
     name: "Veep",
     platform: "Sky\xa0Ticket",
     description: "Very funny if you pay attention. Otherwise you would probably think this is just a boring political sitcom. But it is incredibly well written and has had a huge impact on pop culture in the US."
