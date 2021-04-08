@@ -6,6 +6,11 @@ module.exports = [
 
 
   {
+    name: "Framing Britney Spears",
+    platform: "Amazon",
+    description: "Recently I watched the documentaries 'Amy' about Amy Winehouse (Mubi) and 'The World´s a little blurry' about Billie Eilish (Apple TV+), so this is the third movie about a female superstar I´ve watched. Comparing them is pretty fascinating but even on its own this movie is almost a must-see. It is unbelievable."
+  },
+  {
     name: "The Dead Don´t Die",
     platform: "Amazon",
     description: "If the names Adam Driver and Jim Jarmusch mean anything to you, you know why you got to see this. Otherwise I would recommend this to a certain audience, I found it to be pretty funny.",
