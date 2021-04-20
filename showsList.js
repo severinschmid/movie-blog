@@ -7,6 +7,11 @@ module.exports = [
 
 
   {
+    name: "The Politician",
+    platform: "Netflix",
+    description: "I am just talking about the pilot episode here, I have not seen more of this yet. But the pilot is among the best I have seen and I am curious what happens next. This episode felt like a good movie to me. But maybe it will go downhill we will see."
+  },
+  { 
     name: "Feel Good",
     platform: "Netflix",
     description: "This is basically a movie. Six episodes, 25 minutes each. So it is perfect for the weekend. Because it is so short I kind of don´t want to say anything else about it, just put it on your watch list."
