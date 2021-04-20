@@ -9,7 +9,7 @@ module.exports = [
   {
     name: "The Politician",
     platform: "Netflix",
-    description: "I am just talking about the pilot episode here, I have not seen more of this yet. But the pilot is among the best I have seen and I am curious what happens next. This episode felt like a good movie to me. But maybe it will go downhill we will see."
+    description: "I am just talking about the pilot episode here, I have not seen more of this yet. But the pilot is among the best I have seen and I am curious what happens next. This episode felt like a good movie to me. But maybe it will go get worse from here, we will see."
   },
   { 
     name: "Feel Good",
