@@ -37,15 +37,18 @@ function log(req) {
   var current_minute = date.getMinutes();
   var month = date.getUTCMonth() + 1; //months from 1-12
   var day = date.getUTCDate();
-  fs.appendFile("sessions.log", `\n ${JSON.stringify({
-    time: day + "/" +
-      month + ":" + current_hour + ":" + current_minute, ip: ip, sessions: req.session.page_views
-  })}`, function (err) {
-    if (err) {
-      return console.log(err);
-    }
-    console.log("The file was saved!");
-  });
+
+  if (req.session.page_views < 2) {
+    fs.appendFile("sessions.log", `\n ${JSON.stringify({
+      time: day + "/" +
+        month + ":" + current_hour + ":" + current_minute, sessions: req.session.page_views
+    })}`, function (err) {
+      if (err) {
+        return console.log(err);
+      }
+      console.log("The file was saved!");
+    });
+  }
 }
 
 async function moviesHandler(req, res, next) {
@@ -56,7 +59,7 @@ async function moviesHandler(req, res, next) {
     req.session.page_views = 1;
   }
 
-  // log(req)
+  log(req)
 
   try {
     const excludedPlatform = req.body.platform;
