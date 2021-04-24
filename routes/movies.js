@@ -33,7 +33,7 @@ movies.forEach(movie => { // compile list of all platforms that exist and if the
 function log(req) {
   var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress
   var date = new Date();
-  var current_hour = date.getHours();
+  var current_hour = date.getHours() +2;
   var current_minute = date.getMinutes();
   var month = date.getUTCMonth() + 1; //months from 1-12
   var day = date.getUTCDate();
@@ -41,7 +41,7 @@ function log(req) {
   if (req.session.page_views < 2) {
     fs.appendFile("sessions.log", `\n ${JSON.stringify({
       time: day + "/" +
-        month + ":" + current_hour + ":" + current_minute, sessions: req.session.page_views
+        month + " - " + current_hour + ":" + current_minute, sessions: req.session.page_views
     })}`, function (err) {
       if (err) {
         return console.log(err);
