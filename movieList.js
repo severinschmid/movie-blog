@@ -6,6 +6,11 @@ module.exports = [
 
 
   {
+    name: "My Octopus Teacher",
+    platform: "Netflix",
+    description: "Nominated for the Academy Award for Best Documentary. Within the first 10 minutes you just know this is special. I was very surprised by it, it is gorgeous."
+  },
+  {
     name: "Framing Britney Spears",
     platform: "Amazon",
     description: "Recently I watched the documentaries 'Amy' about Amy Winehouse (Mubi) and 'The World´s a little blurry' about Billie Eilish (Apple TV+), so this is the third movie about a female superstar I´ve watched. Comparing them is pretty fascinating but even on its own this movie is almost a must-see. It is unbelievable."
