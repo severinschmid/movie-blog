@@ -7,6 +7,11 @@ module.exports = [
 
 
   {
+    name: "Baskets",
+    platform: "Disney\xa0+",
+    description: "The latest show that I find very funny. It has a lot of laugh-out-loud moments but is also very personal and heartfelt. Just very entertaining overall. Co-created by and starring Zach Galifianakis."
+  },
+  {
     name: "The Politician",
     platform: "Netflix",
     description: "I am just talking about the pilot episode here, I have not seen more of this yet. But the pilot is among the best I have seen and I am curious what happens next. This episode felt like a good movie to me. But maybe it will get worse from here, we will see."
@@ -39,7 +44,8 @@ module.exports = [
   {
     name: "Detroiters",
     platform: "Amazon",
-    description: "Tim Robinson and Sam Richardson created this. I am very sad it did not go on longer than two seaons."
+    description: "Tim Robinson and Sam Richardson created this. I am very sad it did not go on longer than two seaons.",
+    link: "https://www.amazon.de/gp/video/detail/B077YRF6Q1/ref=atv_dp_share_cu_r"
   },
   {
     name: "I think you should leave",
@@ -54,12 +60,14 @@ module.exports = [
   {
     name: "Normal People",
     platform: "Amazon",
-    description: "Get yourself a month of the Starzplay Channel and watch this. It has one minor flaw, maybe you will find out what I mean. But the love story really takes its time and is pretty well developed. The two main leads are great and I found myself rooting for them, a lot."
+    description: "Get yourself a month of the Starzplay Channel and watch this. It has one minor flaw, maybe you will find out what I mean. But the love story really takes its time and is pretty well developed. The two main leads are great and I found myself rooting for them, a lot.",
+    link: "https://www.amazon.de/gp/video/detail/B08BJ3Z9ZB/ref=atv_dp_share_cu_r"
   },
   {
     name: "Killing Eve",
     platform: "Amazon",
-    description: "Also on the Starzplay Channel. The first season is created by Phoebe-Waller Bridge, so you kind of have to see it."
+    description: "Also on the Starzplay Channel. The first season is created by Phoebe-Waller Bridge, so you kind of have to see it.",
+    link: "https://www.amazon.de/gp/video/detail/B07NDJFJWM/ref=atv_dp_share_cu_r"
   },
   {
     name: "The Last Dance",
@@ -74,7 +82,8 @@ module.exports = [
   {
     name: "Fleabag",
     platform: "Amazon",
-    description: "Probably one of the most talked-about shows in recent years? Phoebe Waller-Bridge earned a bunch of emmys for it. 12 episodes, 25 minutes each, for those of you who fear commitment. Name another show that is this creative, honest and unique. I´ll wait."
+    description: "Probably one of the most talked-about shows in recent years? Phoebe Waller-Bridge earned a bunch of emmys for it. 12 episodes, 25 minutes each, for those of you who fear commitment. Name another show that is this creative, honest and unique. I´ll wait.",
+    link: "https://www.amazon.de/gp/video/detail/B0875Q1ZQ9/ref=atv_dp_share_cu_r"
   },
   {
     name: "West World",
@@ -84,12 +93,14 @@ module.exports = [
   {
     name: "Mad Men",
     platform: "Amazon",
-    description: "Also a favorite of mine. I know this will probably not be for everyone, it is probably a love it or hate it kind of show. But if you can enjoy amazing production design, paired with witty dialogues and a bunch of great fleshed out characters, you should watch this."
+    description: "Also a favorite of mine. I know this will probably not be for everyone, it is probably a love it or hate it kind of show. But if you can enjoy amazing production design, paired with witty dialogues and a bunch of great fleshed out characters, you should watch this.",
+    link: "https://www.amazon.de/gp/video/detail/B08182L6M4/ref=atv_dp_share_cu_r"
   },
   {
     name: "Handmaid´s Tale",
     platform: "Amazon",
-    description: "Pretty grim show based on the book of the same name. You should have heard about this of course, but I recommend you check it out."
+    description: "Pretty grim show based on the book of the same name. You should have heard about this of course, but I recommend you check it out.",
+    link: "https://www.amazon.de/gp/video/detail/B078TLFD6Q/ref=atv_dp_share_cu_r"
   },
   {
     name: "Master of None",
@@ -154,6 +165,7 @@ module.exports = [
   {
     name: "Catastrophe",
     platform: "Amazon",
-    description: "An english series to shake things up a bit. I guess comedy is subjective but I find this pretty funny. The depicted releationship is unlike many others on TV, and the two protagonists wrote and created the show."
+    description: "An english series to shake things up a bit. I guess comedy is subjective but I find this pretty funny. The depicted releationship is unlike many others on TV, and the two protagonists wrote and created the show.",
+    link: "https://www.amazon.de/gp/video/detail/B0748NDMYM/ref=atv_dp_share_cu_r"
   },
 ]
