@@ -20,10 +20,9 @@
           <h4 class="movie__title">{{this.name}}</h4>
         </span>
         <p class="why">{{this.description}}</p>
-        {{#if this.link}}
-        <p class="where"><a class="link__default" href="{{this.link}}">Available on {{this.platform}} (Link)</a></p>
-        {{else}}
         <p class="where">Available on {{this.platform}}</p>
+        {{#if this.link}}
+        <p class="link__show"><a class="link__default" href="{{this.link}}">Go to Show</a></p>
         {{/if}}
       </div>
     </li>

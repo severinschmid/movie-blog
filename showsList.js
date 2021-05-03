@@ -9,7 +9,7 @@ module.exports = [
   {
     name: "Baskets",
     platform: "Disney\xa0+",
-    description: "The latest show that I find very funny. It has a lot of laugh-out-loud moments but is also very personal and heartfelt. Just very entertaining overall. Co-created by and starring Zach Galifianakis."
+    description: "The latest show that I find very funny. It is about a clown in a mid-life crisis and has to move back in with his mother in Bakersfield, California. It has a lot of laugh-out-loud moments but is also very personal and heartfelt. Just very entertaining overall. Co-created by and starring Zach Galifianakis."
   },
   {
     name: "The Politician",
