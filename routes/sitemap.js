@@ -1,8 +1,4 @@
-const { create } = require('express-handlebars');
-const hbs = require('express-handlebars')
 const config = require('../config')
-const navigation = config.navigation
-
 const createSitemap = require('../lib/createSitemap');
 
 async function sitemapHandler(req, res, next) {

@@ -3,14 +3,13 @@ const app = express();
 const routes = require('./routes')
 const helmet = require('helmet');
 const path = require('path')
-let hbs = require('express-handlebars');
+const hbs = require('express-handlebars');
 var session = require('express-session');
 
-
+//hbs.registerHelper('getConfigValue', require('./helpers/input'));
 
 const publicPath = path.join(__dirname, './views');
-console.log(publicPath)
-app.use(helmet());
+app.use(helmet())
 app.use(express.urlencoded({ extended: true }));
 app.use(session({ secret: "Shh, its a secret!" }));
 
@@ -29,8 +28,12 @@ app.engine('hbs', hbs({
         return options.fn(this);
       }
     } 
+  },
+  update: function (value) {
+      
   }
 }));
+
 
 app.use(express.static('public'))
 app.use(routes)

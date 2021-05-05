@@ -1,4 +1,3 @@
-const hbs = require('express-handlebars')
 const config = require('../config')
 const navigation = config.navigation
 const movies = require('../movieList')
@@ -51,8 +50,10 @@ function log(req) {
   }
 }
 
+
+
 async function moviesHandler(req, res, next) {
-  var movieListToRender = initMovieList();
+  let movieListToRender = initMovieList();
   if (req.session.page_views) {
     req.session.page_views++;
   } else {

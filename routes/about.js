@@ -1,4 +1,3 @@
-const hbs = require('express-handlebars')
 const config = require('../config')
 
 const navigation = config.navigation
