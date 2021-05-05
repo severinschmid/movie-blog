@@ -1,22 +1,39 @@
 <body class="main">
   <script>
+    let active_platforms = []
+    const inList = (list1, list) => list.contains(element);
     function update(platform) {
-
+      disableAll()
       const btn = document.getElementById(platform)
-
-      if (btn.classList.contains("button__isActive")) btn.classList.remove("button__isActive")
-      else btn.classList.add("button__isActive")
+      let display;
+      if (btn.classList.contains("button__isActive")) {
+        btn.classList.remove("button__isActive")
+        display = false
+        active_platforms.pop(btn.id)
+      }
+      else {
+        btn.classList.add("button__isActive")
+        display = true
+        active_platforms.push(btn.id)
+      }
 
       const movies = document.getElementsByClassName(platform)
       for (let item of movies) {
 
-        if (item.style.display === "none") {
+        if (display) {
           item.style.display = "initial";
         }
         else {
           item.style.display = "none"
         }
       }
+    }
+
+    function disableAll() {
+      const all_movies = document.getElementsByClassName("movie__list_item")
+        for (let item of all_movies) {
+          if (!active_platforms.includes(item.id)) item.style.display = "none"
+        }
     }
   </script>
   <div>
@@ -27,13 +44,13 @@
       <div class="filter__buttons">
         {{#each platforms}}
         <button onclick="update('{{this.platform}}')" id={{this.platform}}
-          class="button__isActive filter__button">{{this.platform}}</button>
-          {{/each}}
+          class="filter__button">{{this.platform}}</button>
+        {{/each}}
       </div>
     </div>
     <ul class="movie__list" style="list-style-type: none;">
       {{#each movies}}
-      <li class="{{this.platform}} movie__list_item">
+      <li id="{{this.platform}}"class="{{this.platform}} movie__list_item">
         <div class="movie__item">
           <span class="movie__header">
             <h4 class="movie__title">{{this.name}}</h4>
