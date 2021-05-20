@@ -11,6 +11,10 @@ module.exports = {
     {
       name: 'About',
       uri: '/about'
+    },
+    {
+      name: 'Watchlist',
+      uri: '/watchlist'
     }
   ]
 }

@@ -8,7 +8,7 @@ async function aboutHandler(req, res, next) {
     return res.render('main', {
       layout: 'index',
       body: "Hello Home",
-      navigation: navigation,
+      navigation,
       type: "about"
     })
   } catch (err) {

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Mythic Quest",
+    "platform": "Apple TV Plus",
+    "description": "It is a workplace comedy about game developers. And it starrs Danny Pudi, aka Abed from Community.",
+    "type": "Show"
+  },
+  {
+    "name": "The Flight Attendant",
+    "platform": "Amazon",
+    "description": "In case I need a crime show. It starrs Kaley Cuoco and got pretty good reviews.",
+    "type": "Show"
+  },
+  {
+    "name": "Minari",
+    "platform": "Itunes",
+    "description": "I still have to watch a lot of Oscar Movies. This starrs one of my favorites, Steven Yeun, so it is on the top of my list.",
+    "type": "Movie"
+  },
+  {
+    "name": "Judas and the Black Messiah",
+    "platform": "Itunes",
+    "description": "Another movie I have high expectations for. With even two favorites, Daniel Kaluuya and LaKeith Stanfield. Daniel won the Oscar for Best Supporting Actor for this.",
+    "type": "Movie"
+  }
+]
