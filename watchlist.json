@@ -1,5 +1,29 @@
 [
   {
+    "name": "This is Us",
+    "platform": "Amazon",
+    "description": "A lot of people love this drama about a family, playing out in two timelines. I watched a few episodes and they were fine but I should maybe give it another chance.",
+    "type": "Show"
+  },
+  {
+    "name": "Skin",
+    "platform": "Amazon",
+    "description": "Movie about a nazi who tries to quit being a nazi. It has an A24 logo on it so I don´t know what is keeping me.",
+    "type": "Movie"
+  },
+  {
+    "name": "Portrait of a Lady on Fire",
+    "platform": "Amazon",
+    "description": "The hype around this was just so big, and it´s on Amazon but I never get to watch it.",
+    "type": "Movie"
+  },
+  {
+    "name": "Underground Railroad",
+    "platform": "Amazon",
+    "description": "I want to watch this because it is made by Barry Jenkins, who directed the Oscar-Winning Moonlight.",
+    "type": "Show"
+  },
+  {
     "name": "Mythic Quest",
     "platform": "Apple TV Plus",
     "description": "It is a workplace comedy about game developers. And it starrs Danny Pudi, aka Abed from Community.",
