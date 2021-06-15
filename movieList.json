@@ -1,5 +1,15 @@
 [
   {
+    "name": "The Invitation",
+    "platform": "Netflix",
+    "description": "Another exciting movie. It is not perfect but kind of a gateway horror movie. It is about a kind of culty dinner invitation."
+  },
+  {
+    "name": "Don´t Breathe",
+    "platform": "Netflix",
+    "description": "I am going to talk about some exciting movies. This is one of them, if you just want to watch a 90 minute thriller, this is it. It is somewhat intense, though. Some kids are breaking into a house, but are met by a blind army vet who is more than able to deal with them."
+  },
+  {
     "name": "Room",
     "platform": "Netflix",
     "description": "Brie Larson´s and Jacob Tremblay´s breakout roles. It is pretty grim and emotional but very well acted and engaging. It is about a mother and her son in captivity."
@@ -284,7 +294,7 @@
   },
   {
     "name": "Ex Machina",
-    "platform": "Amazon",
+    "platform": "Netflix",
     "description": "Sometimes this is not free on Amazon so you might have to spend 99 cents or something, but still. One of my favorite movies, and the directoral debut of Alex Garland, which is crazy to me."
   },
   {
