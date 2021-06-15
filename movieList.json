@@ -1,5 +1,25 @@
 [
   {
+    "name": "Room",
+    "platform": "Netflix",
+    "description": "Brie Larson´s and Jacob Tremblay´s breakout roles. It is pretty grim and emotional but very well acted and engaging. It is about a mother and her son in captivity."
+  },
+  {
+    "name": "Blackfish",
+    "platform": "Netflix",
+    "description": "A Documentary about the mistreatment of animals in parks similar to sea world. I have seen it some time ago so I cant describe it in detail, but it´s good."
+  },
+  {
+    "name": "Shutter Island",
+    "platform": "Netflix",
+    "description": "Another movie you probably already know. But it is on Netflix so if you have not seen it, check it out. A Thriller featuring Leonardo Di Caprio."
+  },
+  {
+    "name": "No Country for Old Men",
+    "platform": "Netflix",
+    "description": "This is an absolute classic, I am not sure if I have to talk about it. A modern western about a sheriff who encounters a gruesome crime scene, it features on of the best performances of all time by Javier Bardem."
+  },
+  {
     "name": "Bo Burnham: Inside",
     "platform": "Netflix",
     "description": "Bo Burnham is one of my favorite comedians and I loved every stand up special of his. This new one was shot over the course of the pandemic, entirely inside the same room. And it is a pretty amazing display of his creativity."
