@@ -1,5 +1,17 @@
 [
   {
+    "name": "Blue Jay",
+    "platform": "Netflix",
+    "description": "Very sweet and funny love story with a real emotional core, with Mark Duplass and Sarah Paulson. You should see it. It is less pretentious and artsy than it looks like.",
+    "link": "https://www.youtube.com/watch?v=2htQEBF1fCc"
+  },
+  {
+    "name": "Senna",
+    "platform": "Mubi",
+    "description": "A documentary about Ayrton Senna, the Formula One driver. This is the example for a well made documentary, it transports you to 1988 and is incredibly stylish while telling an exciting story.",
+    "link": "https://www.youtube.com/watch?v=QOQLeqRcgKc"
+  },
+  {
     "name": "The Invitation",
     "platform": "Netflix",
     "description": "Another exciting movie. It is not perfect but kind of a gateway horror movie. It is about a kind of culty dinner invitation."
