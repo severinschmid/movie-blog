@@ -1,5 +1,11 @@
 [
   {
+    "name": "One Mississippi",
+    "platform": "Amazon",
+    "description": "Comedy series by, and starring, Tig Notaro, who is pretty funny. I will definitely watch this when I have time.",
+    "type": "Show"
+  },
+  {
     "name": "Reservoir Dogs",
     "platform": "Netflix",
     "description": "An absolute classic and one of the earliest works of Quentin Tarantino. But somehow I am not always in the mood for a gangster movie. Maybe this is not even a gangster movie, I don´t know.",
