@@ -1,5 +1,17 @@
 [
   {
+    "name": "Reservoir Dogs",
+    "platform": "Netflix",
+    "description": "An absolute classic and one of the earliest works of Quentin Tarantino. But somehow I am not always in the mood for a gangster movie. Maybe this is not even a gangster movie, I don´t know.",
+    "type": "Movie"
+  },
+  {
+    "name": "Maniac",
+    "platform": "Netflix",
+    "description": "A limited series with a great cast and a somewhat intriguing premise. Julia Garner is the main reason I will watch this someday.",
+    "type": "Show"
+  },
+  {
     "name": "This is Us",
     "platform": "Amazon",
     "description": "A lot of people love this drama about a family, playing out in two timelines. I watched a few episodes and they were fine but I should maybe give it another chance.",
