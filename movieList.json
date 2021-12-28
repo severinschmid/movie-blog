@@ -1,5 +1,26 @@
 [
   {
+    "name": "The Lighthouse",
+    "platform": "Amazon",
+    "description": "The 2019 movie by Robert Eggers, not the weird one from 2016. Robert Eggers is one of the most exciting directors right now, just watch the trailer for this and you will know why. He also made The Witch. Robert Pattinson and Willem Dafoe play to lighthouse keepers in the 1890s who are isolated on a remote island.",
+    "trailer": "https://www.youtube.com/watch?v=Hyag7lR8CPA"
+  },
+  {
+    "name": "The Father",
+    "platform": "Amazon",
+    "description": "Another favorite of mine from 2021. Starring Olivia Colman and Anthony Hopkins, who plays a man suffering from the onsets of dementia. The performances are something else, and just everything about is is beautiful."
+  },
+  {
+    "name": "Another Round",
+    "platform": "Amazon",
+    "description": "One of my favorite movies of 2021. It starrs Mads Mikkelsen and is about a group of teachers who decide to be permanently drunk, at least a little bit. But the rule about watching things in their orignal language still applies here!"
+  },
+  {
+    "name": "Get Back",
+    "platform": "Disney+",
+    "description": "Peter Jackson made an 8 hour documentary about The Beatles and it is pretty great, not only if you are a Beatles fan. It is split into three parts and consists of footage of the group just hanging out and writing songs."
+  },
+  {
     "name": "The Last Black Man in San Francisco",
     "platform": "Amazon",
     "description": "An indie movie by A24 with a very distinct vibe. It echoes the ongoing housing crisis in San Francisco."
@@ -159,9 +180,9 @@
     "link": "https://www.youtube.com/watch?v=saHzng8fxLs"
   },
   {
-    "name": "The VVitch",
+    "name": "The Witch",
     "platform": "Netflix",
-    "description": "One of my all-time favorite horror movies and my favorite movie of 2016. Netflix uploaded a few movies of Anya Taylor-Joy because of Queens Gambit, Thoroughbreds being another good one. Back to The VVitch. It is not very violent but incredibly moody and tense. It is also Robert Eggers directoral debut which is crazy.",
+    "description": "One of my all-time favorite horror movies and my favorite movie of 2016. Netflix uploaded a few movies of Anya Taylor-Joy because of Queens Gambit, Thoroughbreds being another good one. Back to The Witch. It is not very violent but incredibly moody and tense. It is also Robert Eggers directoral debut which is crazy.",
     "link": "https://www.youtube.com/watch?v=iQXmlf3Sefg"
   },
   {

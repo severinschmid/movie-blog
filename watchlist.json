@@ -1,15 +1,15 @@
 [
   {
+    "name": "The Hand of God",
+    "platform": "Netflix",
+    "description": "Everything by Paolo Sorrentino is currently on my watchlist, for example The Great Beauty and Il Divo. This one is about Sorrentinos own youth and how he became a filmmaker, I think.",
+    "type": "Movie"
+  },
+  {
     "name": "One Mississippi",
     "platform": "Amazon",
     "description": "Comedy series by, and starring, Tig Notaro, who is pretty funny. I will definitely watch this when I have time.",
     "type": "Show"
-  },
-  {
-    "name": "Reservoir Dogs",
-    "platform": "Netflix",
-    "description": "An absolute classic and one of the earliest works of Quentin Tarantino. But somehow I am not always in the mood for a gangster movie. Maybe this is not even a gangster movie, I don´t know.",
-    "type": "Movie"
   },
   {
     "name": "Maniac",
@@ -40,29 +40,5 @@
     "platform": "Amazon",
     "description": "I want to watch this because it is made by Barry Jenkins, who directed the Oscar-Winning Moonlight.",
     "type": "Show"
-  },
-  {
-    "name": "Atlanta",
-    "platform": "Disney+",
-    "description": "I searched for this for a long time, now it is on Disney+. Created by and starring Donald Glover aka Childish Gambino, so this should be interesting.",
-    "type": "Show"
-  },
-  {
-    "name": "The Flight Attendant",
-    "platform": "Amazon",
-    "description": "In case I need a crime show. It starrs Kaley Cuoco and got pretty good reviews.",
-    "type": "Show"
-  },
-  {
-    "name": "Minari",
-    "platform": "Itunes",
-    "description": "I still have to watch a lot of Oscar Movies. This starrs one of my favorites, Steven Yeun, so it is on the top of my list.",
-    "type": "Movie"
-  },
-  {
-    "name": "Judas and the Black Messiah",
-    "platform": "Itunes",
-    "description": "Another movie I have high expectations for. With even two favorites, Daniel Kaluuya and LaKeith Stanfield. Daniel won the Oscar for Best Supporting Actor for this.",
-    "type": "Movie"
   }
 ]

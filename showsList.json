@@ -1,5 +1,20 @@
 [
   {
+    "name": "Midnight Mass",
+    "platform": "Netflix",
+    "description": "If you enjoyed Haunting of Hill House, or Hush, or Geralds Game, or any other of Mike Flannigans work, watch this. I do not want to talk about it too much, but check it out."
+  },
+  {
+    "name": "Scenes From A Marriage",
+    "platform": "Sky",
+    "description": "Based on the movie/tv series by Ingmar Bergman. It starrs the best looking people in Hollywood, Oscar Isaac and Jessica Chastain, who undergo so marital trouble. It is just so perfectly made, and also pretty hard-hitting, emotionally speaking."
+  },
+  {
+    "name": "Atlanta",
+    "platform": "Disney+",
+    "description": "Created by, written and starring Donald Glover, so if you´re a fan of him, you gotta see this. It is about an up-and-coming rapper in Atlanta, the episodes are short and funny and just fly by."
+  },
+  {
     "name": "Mythic Quest",
     "platform": "Apple TV+",
     "description": "The first show to go from my watchlist to my recommendations. It is a workplace comedy about game developers. And it starrs Danny Pudi, aka Abed from Community. I appreciate how close to real software development they try to be, it is engaging and the characters are fun."
