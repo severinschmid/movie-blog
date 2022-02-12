@@ -15,11 +15,15 @@ export default function Shows(props) {
                 </span>
                 <p className="why">{show.description}</p>
                 <p className="where">Watched on {show.platform}</p>
-                <p className="link__show">
-                  <a className="link__default" href={show.link}>
-                    Trailer
-                  </a>
-                </p>
+                {show.link ? (
+                  <p className="link__show">
+                    <a className="link__default" href={show.link}>
+                      Go to Show
+                    </a>
+                  </p>
+                ) : (
+                  ''
+                )}
               </div>
             </li>
           ))}
