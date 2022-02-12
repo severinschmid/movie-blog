@@ -17,7 +17,7 @@ export const shows = [
   },
   {
     name: 'Mythic Quest',
-    platform: 'Apple TV+',
+    platform: 'AppleTV+',
     description: 'The first show to go from my watchlist to my recommendations. It is a workplace comedy about game developers. And it starrs Danny Pudi, aka Abed from Community. I appreciate how close to real software development they try to be, it is engaging and the characters are fun.'
   },
   {

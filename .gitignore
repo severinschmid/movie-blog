@@ -1,7 +1,7 @@
 node_modules
 npm-debug.log
 npm-debug.log.*
-
+package-lock.json
 .git
 
 .DS_Store
@@ -26,6 +26,7 @@ sessions.log
 
 # production
 /build
+/blog-build
 
 # misc
 .DS_Store
