@@ -11,13 +11,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf blog-build && react-scripts build && mv build blog-build",
     "docker-build-dev": "docker buildx build --platform linux/amd64 -t blog:dev .",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "deploy": "npm run build && scp -r blog-build  root@$MOVIE_BLOG_IP:./"
   },
   "eslintConfig": {
     "extends": [

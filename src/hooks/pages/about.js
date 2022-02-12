@@ -6,7 +6,7 @@ export default function About() {
       idea for this blog came from. And I sometimes get asked for movie recommendations, in the future I can just refer them here.
       <br />
       You can follow me on letterboxd @ssevi or send me an&nbsp;
-      <a className="link__default" href={`${CONFIG.email}`}>
+      <a className="link__default" href={`mailto:${CONFIG.email}`}>
         email
       </a>
       , be it feedback on the website or on the movie choices. If you know me personally, feel free to text me if you have seen any of the movies on
