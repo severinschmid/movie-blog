@@ -1,3 +1,7 @@
+.App {
+  text-align: center;
+}
+
 .headline {
   color: rgb(22, 22, 22);
   font-size: 4rem;
@@ -37,6 +41,11 @@
   padding: 4rem;
 }
 
+.topnav__parent {
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
 .platform {
   margin: 3rem;
   font-size: 3rem;
@@ -46,37 +55,42 @@
 
 .topnav {
   display: flex;
-  justify-content: center;
-  padding-bottom: 5rem;
+  justify-content: space-between;
+  width: auto;
 }
 
-.topnav a {
+
+.topnav {
   color: #333333;
-  padding: 1rem;
+  margin: 2rem 0rem;
   text-decoration: none;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.topnav a:hover {
+.nav__item:hover,
+.navbar__item__active {
   box-shadow: #BDEAC7 0 -.3em 0 inset;
 }
 
+.filter__buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .filter__button {
   border: none;
   font-weight: bolder;
-  ;
   color: lightgray;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
   font-size: 16px;
   background-color: whitesmoke;
-  width: 8rem;
-  height: 2rem;
-  margin: .5rem;
+  padding: .5rem 1rem;
   -webkit-appearance: none;
   cursor: pointer;
+  margin: .4rem;
+  width: 6rem;
+  justify-content: center;
 }
 
 .where {
@@ -88,6 +102,7 @@
 
 .why {
   margin: 0rem 1rem 2rem 1rem;
+  text-align: left;
 }
 
 .filter__options {
@@ -99,6 +114,7 @@
 
 
 .link__show {
+  text-align: left;
   margin: 0rem 1rem 1rem 1rem;
 }
 
@@ -116,16 +132,15 @@
   background-color: #BDEAC7;
   color: black;
   -webkit-appearance: none;
-
 }
 
 .movie__list {
   padding: 0 4rem;
+  list-style: none;
 }
 
 .movie__item {
   display: flex;
-  position: relative;
   flex-direction: column;
   border: 10px solid black;
   margin: 2rem auto;
@@ -157,7 +172,7 @@ h5 {
 
 .paragraph__about {
   border: 10px solid #BDEAC7;
-  margin: 6rem auto;
+  margin: 4rem auto;
   box-shadow: 18px 9px 9px grey;
   background-color: white;
   max-width: 70rem;
@@ -166,13 +181,13 @@ h5 {
   line-height: 3rem;
   font-size: 1.5rem;
   padding: 2rem;
+  text-align: left;
 }
 
 .nav__item {
   font-size: 3rem;
   list-style: none;
-  position: relative;
-  text-align: center;
+  cursor: pointer;
 }
 
 .watchlist__text {
@@ -182,6 +197,7 @@ h5 {
   line-height: 3rem;
   font-size: 2rem;
   text-align: center;
+  max-width: 90%;
 }
 
 .watchlist__type {
@@ -206,20 +222,46 @@ h5 {
   }
 
   .nav__item {
-    margin-top: 1rem;
+    margin: .5rem auto;
   }
 
   .topnav {
     display: flex;
     flex-direction: column;
-    padding-bottom: 3rem;
+    margin: 0rem 2rem;
   }
 
   .filter__options {
     padding: 2rem 0 0 0;
     text-align: center;
   }
+
+  .filter__buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .filter__button {
+    border: none;
+    font-weight: bolder;
+    color: lightgray;
+    display: inline-flex;
+    font-size: 16px;
+    background-color: whitesmoke;
+    padding: .5rem 1rem;
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin: .4rem;
+  }
+
+  .button__isActive {
+    background-color: #BDEAC7;
+    color: black;
+    -webkit-appearance: none;
+  }
+
+  .movie__item {
+    max-width: 90%;
+  }
 }
-
-
-@media screen and (max-width: 999px) {}
