@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  --text-small: 1.2rem;
+  --text-medium: 2rem;
+  --text-large: 4rem;
+  --font: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 .headline {
   color: rgb(22, 22, 22);
-  font-size: 4rem;
+  font-size: var(--text-large);
   margin: 0;
   box-shadow: #BDEAC7 0 -.5em 0 inset;
   display: inline-block;
@@ -22,11 +26,11 @@
 }
 
 .sansserif {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
 }
 
 .text {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: var(--font);
 
 }
 
@@ -34,10 +38,10 @@
   text-align: center;
   color: #333333;
   margin: 0 auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: var(--font);
   line-height: 4rem;
   max-width: 60rem;
-  font-size: 3rem;
+  font-size: var(--text-medium);
   padding: 4rem;
 }
 
@@ -48,7 +52,7 @@
 
 .platform {
   margin: 3rem;
-  font-size: 3rem;
+  font-size: var(--text-medium);
   position: relative;
   text-align: center;
 }
@@ -64,7 +68,7 @@
   color: #333333;
   margin: 2rem 0rem;
   text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: var(--font);
 }
 
 .nav__item:hover,
@@ -79,11 +83,9 @@
 }
 
 .filter__button {
-  border: none;
-  font-weight: bolder;
   color: lightgray;
   display: inline-flex;
-  font-size: 16px;
+  font-size: var(--text-small);
   background-color: whitesmoke;
   padding: .5rem 1rem;
   -webkit-appearance: none;
@@ -94,7 +96,7 @@
 }
 
 .where {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   margin: 0rem 1rem 1rem 1rem;
   font-style: italic;
   width: max-content;
@@ -125,7 +127,7 @@
 }
 
 .filter__text {
-  font-size: 1.5rem;
+  font-size: var(--text-small);
 }
 
 .button__isActive {
@@ -144,8 +146,8 @@
   flex-direction: column;
   border: 10px solid black;
   margin: 2rem auto;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.5rem;
+  font-family: var(--font);
+  font-size: var(--text-small);
   box-shadow: 18px 9px 9px grey;
   background-color: white;
   max-width: 70rem;
@@ -175,33 +177,33 @@ h5 {
   margin: 4rem auto;
   box-shadow: 18px 9px 9px grey;
   background-color: white;
-  max-width: 70rem;
+  max-width: 75%;
   color: #333333;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: var(--font);
   line-height: 3rem;
-  font-size: 1.5rem;
+  font-size: var(--text-small);
   padding: 2rem;
   text-align: left;
 }
 
 .nav__item {
-  font-size: 3rem;
+  font-size: var(--text-medium);
   list-style: none;
   cursor: pointer;
 }
 
 .watchlist__text {
-  margin: 6rem auto;
+  margin: 3rem auto;
   color: #333333;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: var(--font);
   line-height: 3rem;
-  font-size: 2rem;
+  font-size: var(--text-small);
   text-align: center;
   max-width: 90%;
 }
 
 .watchlist__type {
-  font-size: 2rem;
+  font-size: var(--text-small);
   text-align: center;
   margin: -2rem 0 3rem 0;
 }
@@ -243,11 +245,9 @@ h5 {
   }
 
   .filter__button {
-    border: none;
-    font-weight: bolder;
     color: lightgray;
     display: inline-flex;
-    font-size: 16px;
+    font-size: var(--text-small);
     background-color: whitesmoke;
     padding: .5rem 1rem;
     -webkit-appearance: none;

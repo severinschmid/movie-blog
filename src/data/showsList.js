@@ -7,7 +7,7 @@ export const shows = [
   },
   {
     name: 'Scenes From A Marriage',
-    platform: 'Sky',
+    platform: 'HBO/Sky',
     description: 'Based on the movie/tv series by Ingmar Bergman. It starrs the best looking people in Hollywood, Oscar Isaac and Jessica Chastain, who undergo some marital trouble. It is just so perfectly made, and also pretty hard-hitting, emotionally speaking.'
   },
   {
@@ -38,7 +38,7 @@ export const shows = [
   },
   {
     name: 'Veep',
-    platform: 'Sky',
+    platform: 'HBO/Sky',
     description: 'Very funny if you pay attention. Otherwise you would probably think this is just a boring political sitcom. But it is incredibly well written and has had a huge impact on pop culture in the US.'
   },
   {
@@ -149,17 +149,17 @@ export const shows = [
   },
   {
     name: 'Barry',
-    platform: 'Sky',
+    platform: 'HBO/Sky',
     description: 'This is just perfect television. Shorter episodes, funny, exciting, and with Bill Hader. No other show combines different tones like Barry does. One of my current favorites.'
   },
   {
     name: 'Devs',
-    platform: 'Sky',
+    platform: 'HBO/Sky',
     description: 'From one of my favorite film makers, Alex Garland. So far he made one hit after the other as a director. His two movies are Ex Machina and Annihilation. This is a limited series and very engaging. It is science fiction but I still would recommend this to everyone.'
   },
   {
     name: 'Succession',
-    platform: 'Sky',
+    platform: 'HBO/Sky',
     description: 'A pretty recent show, it is just in its second season and picking up emmys left and right. The family is awful, but that is the entire point. It is so funny and satirical and features dialogues which remind me a lot of Mad Men. The money stuff in it seems to be very grounded in reality as well, Slate Money even made a podcast about Succession storylines and its real world counterparts.'
   },
   {
@@ -169,7 +169,7 @@ export const shows = [
   },
   {
     name: 'Big Little Lies',
-    platform: 'Sky',
+    platform: 'HBO/Sky',
     description: 'This one is for all the parents. I liked it too though, more so the first season. Still, this is prestige TV with an all-star cast. All the kid actors are great, and its pretty funny at times.'
   },
   {

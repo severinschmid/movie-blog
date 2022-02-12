@@ -1,13 +1,13 @@
 export const watchlistData = [
   {
     name: 'Station Eleven',
-    platform: 'HBO / Sky',
+    platform: 'HBO/Sky',
     description: 'This gets a lot of attention and sounds interesting. I think it is about the post-apocolypse but with a kind of positive spin?',
     type: 'Show'
   },
   {
     name: 'Seach Party',
-    platform: 'HBO / Sky',
+    platform: 'HBO/Sky',
     description: 'I head this should be pretty good, it starrs Alia Shawkat and it is only like 20 minutes per episode.',
     type: 'Show'
   },
