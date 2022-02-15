@@ -1,11 +1,10 @@
 import './css/App.css';
 import { Header, Page } from './hooks/container';
 import { useState } from 'react';
-import { CONFIG } from './config';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Movies');
-  const [selectedPlatforms, setPlatforms] = useState(CONFIG.platforms);
+  const [selectedPlatforms, setPlatforms] = useState([]);
 
   return (
     <div className="App">

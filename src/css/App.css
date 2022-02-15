@@ -2,23 +2,25 @@
   text-align: center;
   --text-small: 1.2rem;
   --text-medium: 2rem;
-  --text-large: 4rem;
+  --text-large: 3rem;
   --font: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  --line-height: 1.5rem;
+  margin-left: calc(100vw - 100%);
 }
 
 .headline {
   color: rgb(22, 22, 22);
   font-size: var(--text-large);
   margin: 0;
-  box-shadow: #BDEAC7 0 -.5em 0 inset;
+  box-shadow: #BDEAC7 0 -.3em 0 inset;
   display: inline-block;
   text-align: center;
-
+  max-width: 75%;
+  font-weight: lighter;
 }
 
 .header {
   text-align: center;
-  padding-bottom: 2rem;
 }
 
 .main {
@@ -47,7 +49,7 @@
 
 .topnav__parent {
   max-width: 46rem;
-  margin: 0rem auto 3rem auto;
+  margin: 1rem auto 3rem auto;
 }
 
 .platform {
@@ -101,6 +103,7 @@
 .why {
   margin: 0rem 1rem 2rem 1rem;
   text-align: left;
+  line-height: var(--line-height);
 }
 
 .filter__options {
@@ -133,7 +136,7 @@
 }
 
 .movie__list {
-  padding: 0 4rem;
+  padding: 0;
   list-style: none;
 }
 
@@ -146,7 +149,7 @@
   font-size: var(--text-small);
   box-shadow: 18px 9px 9px grey;
   background-color: white;
-  max-width: 70rem;
+  max-width: 45rem;
 }
 
 
@@ -169,16 +172,11 @@ h5 {
 }
 
 .paragraph__about {
-  border: 10px solid #BDEAC7;
   margin: 4rem auto;
-  box-shadow: 18px 9px 9px grey;
-  background-color: white;
-  max-width: 75%;
-  color: #333333;
+  max-width: 45rem;
   font-family: var(--font);
-  line-height: 3rem;
+  line-height: var(--line-height);
   font-size: var(--text-small);
-  padding: 2rem;
   text-align: left;
 }
 
@@ -186,6 +184,7 @@ h5 {
   font-size: var(--text-medium);
   list-style: none;
   cursor: pointer;
+  font-weight: lighter;
 }
 
 .watchlist__text {
@@ -196,6 +195,7 @@ h5 {
   font-size: var(--text-small);
   text-align: center;
   max-width: 90%;
+  line-height: 1.4rem;
 }
 
 .watchlist__type {
@@ -206,17 +206,19 @@ h5 {
 
 /* Responsive navigation menu (for mobile devices) */
 @media screen and (max-width: 600px) {
+
+  .paragraph__about {
+    max-width: 75%;
+    margin: 1rem auto;
+  }
+
   .movie__list {
     padding: 0 0;
   }
 
-  .header {
-    padding-bottom: 2rem;
-  }
-
   .headline {
     padding-bottom: 0;
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 
   .nav__item {
