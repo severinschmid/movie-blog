@@ -1,5 +1,30 @@
 export const movies = [
   {
+    name: 'The Night House',
+    platform: 'Disney+',
+    description:
+      'I was surprised this was on Disney+. It is kind of a haunted house, home invasion type thriller, with a great (!) performance by Rebecca Hall. She plays a women who recently lost her husband, but cannot shake the feeling that he is still present in her home.',
+    link: 'https://www.youtube.com/watch?v=2Tshycci2ZA'
+  },
+  {
+    name: 'The Shining',
+    platform: 'Netflix',
+    description: 'Maybe the best and most iconic horror movie of all time?'
+  },
+  {
+    name: 'His House',
+    platform: 'Netflix',
+    description:
+      'I always like a good directorial debut. This one is pretty haunting, it is about a married couple who flee war-torn Sudan to live in London. But the house they get assigned to is haunted.'
+  },
+  {
+    name: 'The Power of the Dog',
+    platform: 'Netflix',
+    description:
+      'Got nominated for a bunch of Oscars and I understand why. It looks and sounds great, and I like the entire cast. But I dont want to give away that much about the story, I found it pretty intriguing.',
+    link: 'https://www.youtube.com/watch?v=LRDPo0CHrko'
+  },
+  {
     name: 'The Lighthouse',
     platform: 'Amazon',
     description:
