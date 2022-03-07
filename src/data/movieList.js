@@ -1,5 +1,25 @@
 export const movies = [
   {
+    name: 'Catch me if you can',
+    platform: 'Netflix',
+    description:
+      'Also a classic. Starring a younger Tom Hanks and Leonardo DiCaprio, based on real-life events, very entertaining. DiCaprio plays a famous con man, and Tom Hanks is tasked to catch him.'
+  },
+  {
+    name: 'Baby Driver',
+    platform: 'Netflix',
+    description:
+      'Pretty casual movie I would say. Nice soundtrack, great stunts, I guess this appeals to almost everbody. Ansel Elgort plays an escape driver for a group of bank robbers (Jamie Foxx, Jon Hamm, Jon Bernthal(l).',
+    link: 'https://www.youtube.com/watch?v=D9YZw_X5UzQ'
+  },
+  {
+    name: 'The Nightingale',
+    platform: 'Netflix',
+    description:
+      'An incredible grim movie but definitely worth your time. It is a revenge plot set in Australia in 1825 and it deals with colonialism in a brutally honest way. It´s incredibly well made, but almost hard to recommend because of the subject matter. But if you are intrigued, give it a go.',
+    link: 'https://www.youtube.com/watch?v=YuP8g_GQIgI'
+  },
+  {
     name: 'The Night House',
     platform: 'Disney+',
     description:

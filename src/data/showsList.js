@@ -1,6 +1,11 @@
 // prettier-ignore
 export const shows = [
   {
+    name: 'The Office',
+    platform: 'Netflix',
+    description: 'For those who do not know The Office is on Netflix. It is of course an absolute classic and the essential workplace comedy. Please do not get irritated if you do not like the first season, it´s only 6 episodes and I guess they were still finding their style.'
+  },
+  {
     name: 'Midnight Mass',
     platform: 'Netflix',
     description: 'If you enjoyed Haunting of Hill House, or Hush, or Geralds Game, or any other of Mike Flannigans work, watch this. I do not want to talk about it too much, but check it out.'
