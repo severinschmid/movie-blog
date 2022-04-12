@@ -14,9 +14,11 @@ export default function About() {
         here, I would love to talk about it. If you cannot find any of the movies on the platform I listed them on I am sorry, but try to find them
         somewhere else if you can!
       </div>
-      <a className="link__default" href="/Impressum.html">
-        Impressum
-      </a>
+      <div className="impressum">
+        <a className="link__default" href="/Impressum.html">
+          Impressum
+        </a>
+      </div>
     </div>
   );
 }
