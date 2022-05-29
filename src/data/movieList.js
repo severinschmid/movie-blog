@@ -1,5 +1,21 @@
 export const movies = [
   {
+    name: 'The Social Network',
+    platform: 'Netflix',
+    description: 'By David Fincher, the director of Fight Club, Se7ven, and Gone Girl (and many more). Good reminder of how awful Facebook is. '
+  },
+  {
+    name: 'Fresh',
+    platform: 'Disney+',
+    description: 'The best thing for you to do is watch this without knowing anything about it.'
+  },
+  {
+    name: 'The Worst Person in the World',
+    platform: 'Mubi',
+    description:
+      'There are not many movies I am excited about recently, but this romantic comedy is one of them. From Norwegian Director Joachim Trier, it is very fresh and just fun to watch.'
+  },
+  {
     name: 'Catch me if you can',
     platform: 'Netflix',
     description:
