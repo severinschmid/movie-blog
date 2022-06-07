@@ -1,5 +1,11 @@
 export const movies = [
   {
+    name: 'Her',
+    platform: 'Netflix',
+    description:
+      'One of my favorite movies ever. I saw it in theatres, and then a few years later to make sure I still liked it. Joaquin Phoenix falls in love with an AI voiced by Scarlett Johansson in the near future. The most striking aspect for me was Spike Jonze´s vision of the future and the entire look and feel of the movie. And it is really sweet.'
+  },
+  {
     name: 'The Social Network',
     platform: 'Netflix',
     description: 'By David Fincher, the director of Fight Club, Se7ven, and Gone Girl (and many more). Good reminder of how awful Facebook is. '
@@ -470,7 +476,7 @@ export const movies = [
     name: 'Burning',
     platform: 'Amazon',
     description:
-      'I guess this is the movie I think about the most, it is currently in my top three favorite movies. To be brief, I was just so immersed into this. The world feels so lived-in, the performances are great, and it is one of the best looking films I have ever seen. I just watched it again to make sure and it is still a masterpiece. But don´t text me saying it is boring, or else! And of course, watch it with subtitles.'
+      'I think this is the movie I think about the most. It is currently among my top three favorite movies. To be brief, I was just so immersed into this. The world feels lived-in, the performances are great, and it is one of the best looking films I know. I recently watched it again to make sure, and it is still a masterpiece. But do not text me saying it is boring, or else! And of course, watch it in Korean with subtitles.'
   },
   {
     name: 'Prisoners',
